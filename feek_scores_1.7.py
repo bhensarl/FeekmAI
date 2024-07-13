@@ -121,7 +121,7 @@ def extract_data(weekly_data, cumulative_data, all_data):
                 })
 
     else:
-         if isinstance(weekly_data, dict):
+        if isinstance(weekly_data, dict):
             print(f"Data format error in week {weekly_data.get('week', 'unknown')}")
         else:
             print("Data format error: weekly_data is not a dictionary")
