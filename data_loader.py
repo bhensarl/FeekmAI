@@ -1,5 +1,5 @@
 # yfpy/data_loader.py
-# import json
+import json
 
 
 def load_weekly_data(week_number):

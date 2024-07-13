@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# Test.  Is this working?  GIT!
+
 # In[1]:
 
 
@@ -22,7 +24,7 @@
 
 """
 This script processes and analyzes weekly sports data (e.g., football scores) from JSON files.
-It generates various reports, including team scoreboards, division scoreboards, and identifies 
+It generates various reports, including team scoreboards, division scoreboards, and identifies
 the "Bad Beats" and "Overachievers" of each week.
 """
 
@@ -47,19 +49,19 @@ pd.set_option('display.max_columns', None)
 def load_weekly_data(week_number):
     """
     Load data from a JSON file for a given week.
-    
+
     :param week_number: Week number as a string (e.g., '1' for week1.json)
     :return: Data loaded from the JSON file
     """
     file_path = f'scores/week{week_number}.json'
-    
+
     try:
         with open(file_path, 'r') as file:
             data = json.load(file)
     except FileNotFoundError:
         print(f"File {file_path} not found.")
         data = {}
-            
+
     # Ensure the data is in the expected dictionary format
     if isinstance(data, list):
         # If the data is a list, try to get the first element assuming it might be the correct dict
@@ -74,7 +76,7 @@ def load_weekly_data(week_number):
 def extract_data(weekly_data, cumulative_data, all_data):
     """
     Extract relevant data from the weekly JSON data and convert it to a DataFrame.
-    
+
     :param weekly_data: Data loaded from the JSON file
     :param cumulative_data: Cumulative data for win/loss record
     :param all_data: DataFrame with all previously extracted data
@@ -123,7 +125,7 @@ def extract_data(weekly_data, cumulative_data, all_data):
             print(f"Data format error in week {weekly_data.get('week', 'unknown')}")
         else:
             print("Data format error: weekly_data is not a dictionary")
-        
+
     weekly_df = pd.DataFrame(extracted_data)
 
     # Calculate cumulative points, Points For/Against Ratio, and running averages
@@ -162,7 +164,7 @@ def extract_data(weekly_data, cumulative_data, all_data):
 # def update_cumulative_data(df, cumulative_df):
 #     """
 #     Update cumulative data for each team and division.
-#     
+#
 #     :param df: DataFrame with weekly data
 #     :param cumulative_df: DataFrame with cumulative data
 #     :return: Updated cumulative DataFrame
@@ -172,19 +174,19 @@ def extract_data(weekly_data, cumulative_data, all_data):
 #         team_id = row['team_id']
 #         team_points = row['team_points']
 #         win = row['win_probability'] > 0.5
-# 
+#
 #         if team_id not in cumulative_df.index:
 #             cumulative_df.loc[team_id] = {'total_points': 0, 'wins': 0, 'losses': 0, 'division_points': 0}
-# 
+#
 #         cumulative_df.at[team_id, 'total_points'] += team_points
 #         cumulative_df.at[team_id, 'wins'] += win
 #         cumulative_df.at[team_id, 'losses'] += not win
-# 
+#
 #     # Update division points
 #     division_points = df.groupby('division_id')['team_points'].sum()
 #     for division_id, points in division_points.items():
 #         cumulative_df.loc[cumulative_df['division_id'] == division_id, 'division_points'] += points
-# 
+#
 #     return cumulative_df
 
 
@@ -220,7 +222,7 @@ def create_scoreboard(df):
     'points_against': 'Total Points Against',
     'inter_division_win': 'Inter-Division Wins'
     }, inplace=True)
-    
+
     agg_data['Division'] = agg_data['Division'].map(division_names)
 
     # Convert columns to numeric types
@@ -244,7 +246,7 @@ def create_scoreboard(df):
     # Order columns as specified
     scoreboard = sorted_agg_data[[
     'Division', 'Team Name', 'Rank', 'Win', 'Loss', 'Total Points',
-    'Total Points Against', 'Inter-Division Wins', 'Avg Pts For', 
+    'Total Points Against', 'Inter-Division Wins', 'Avg Pts For',
     'Avg Pts Against', 'Pts For/Against Ratio'
     ]]
 
@@ -447,8 +449,7 @@ division_detailed_scoreboard.to_csv(
     division_scoreboard_filename, index=False
 )
 
-# Saving the weekly scoreboard 
+# Saving the weekly scoreboard
 weekly_scoreboard.to_csv(
     weekly_scoreboard_filename, index=False
 )
-
