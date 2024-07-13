@@ -154,8 +154,9 @@ def extract_data(weekly_data, cumulative_data, all_data):
         weekly_df.loc[weekly_df['team_name'] == team, 'points_for_against_ratio'] = ratio
         # Calculate and assign running averages
         weekly_df.loc[weekly_df['team_name'] == team, 'average_points_for'] = cumulative_points / games_played
-        weekly_df.loc[weekly_df['team_name'] == team, 'average_points_against'] = cumulative_points_against / games_played
-
+        weekly_df.loc[weekly_df['team_name'] == team, 'average_points_against'] = (
+            cumulative_points_against / games_played
+        )
     return weekly_df
 
 
@@ -334,17 +335,32 @@ def calculate_division_scores(detailed_df):
         # Iterate over each week
         for week in division_scoreboard['Week']:
             # Calculate points for current week
-            current_week_points = division_scoreboard.loc[division_scoreboard['Week'] == week, f'points {division}'].iloc[0]
-            inter_division_wins = division_scoreboard.loc[division_scoreboard['Week'] == week, f'inter_division_win {division}'].iloc[0]
+            current_week_points = division_scoreboard.loc[
+                division_scoreboard['Week'] == week, f'points {division}'
+            ].iloc[0]
+
+            inter_division_wins = division_scoreboard.loc[
+                division_scoreboard['Week'] == week, f'inter_division_win {division}'
+            ].iloc[0]
+
+            # Add points for inter_division_wins
             additional_points = 100 * inter_division_wins
 
             if week > 1:
                 # Add to previous week's total points
-                previous_total = division_scoreboard.loc[division_scoreboard['Week'] == week - 1, f'{division} Div Total Pts'].iloc[0]
-                division_scoreboard.loc[division_scoreboard['Week'] == week, f'{division} Div Total Pts'] = previous_total + current_week_points + additional_points
+                previous_total = division_scoreboard.loc[
+                    division_scoreboard['Week'] == week - 1, f'{division} Div Total Pts'
+                ].iloc[0]
+
+                division_scoreboard.loc[
+                    division_scoreboard['Week'] == week, f'{division} Div Total Pts'
+                ] = previous_total + current_week_points + additional_points
+
             else:
                 # For the first week, the total is just the current week's points
-                division_scoreboard.loc[division_scoreboard['Week'] == week, f'{division} Div Total Pts'] = current_week_points + additional_points
+                division_scoreboard.loc[
+                    division_scoreboard['Week'] == week, f'{division} Div Total Pts'
+                ] = current_week_points + additional_points
 
     # Identify the highest scoring team for each week (BMOC)
     highest_scoring_team = detailed_df.groupby('week')['points'].idxmax()
