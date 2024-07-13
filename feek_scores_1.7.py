@@ -1,10 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Test.  Is this working?  GIT!
-
 # In[1]:
-
 
 # v1.7 change log
 # -Fixed long lines
@@ -15,12 +12,6 @@
 # -Koints calculator
 # -Boints calculator
 
-
-# In[ ]:
-
-
-# !/usr/bin/env python
-# coding: utf-8
 
 """
 This script processes and analyzes weekly sports data (e.g., football scores) from JSON files.
