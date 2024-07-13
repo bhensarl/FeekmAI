@@ -1,6 +1,6 @@
 # yfpy/main.py
-from yfpy.data_loader import load_weekly_data
-from yfpy.data_processor import extract_data
+from data_loader import load_weekly_data
+from data_processor import extract_data
 import pandas as pd
 
 
