@@ -19,7 +19,7 @@
 # In[ ]:
 
 
-#!/usr/bin/env python
+# !/usr/bin/env python
 # coding: utf-8
 
 """
@@ -35,6 +35,7 @@ the "Bad Beats" and "Overachievers" of each week.
 import json
 import pandas as pd
 import numpy as np
+import datetime
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
@@ -93,7 +94,7 @@ def extract_data(weekly_data, cumulative_data, all_data):
 
             points_against = {teams[0]['team']['team_id']: float(teams[1]['team']['team_points']['total']),
                               teams[1]['team']['team_id']: float(teams[0]['team']['team_points']['total'])
-                             }
+                              }
 
             for team in teams:
                 team_data = team['team']
@@ -214,13 +215,13 @@ def create_scoreboard(df):
 
     # Rename columns and map division names
     agg_data.rename(columns={
-    'division_id': 'Division',
-    'team_name': 'Team Name',
-    'total_wins': 'Win',
-    'total_losses': 'Loss',
-    'points': 'Total Points',
-    'points_against': 'Total Points Against',
-    'inter_division_win': 'Inter-Division Wins'
+        'division_id': 'Division',
+        'team_name': 'Team Name',
+        'total_wins': 'Win',
+        'total_losses': 'Loss',
+        'points': 'Total Points',
+        'points_against': 'Total Points Against',
+        'inter_division_win': 'Inter-Division Wins'
     }, inplace=True)
 
     agg_data['Division'] = agg_data['Division'].map(division_names)
@@ -241,13 +242,17 @@ def create_scoreboard(df):
     sorted_agg_data['Rank'] = range(1, len(sorted_agg_data) + 1)
 
     # Calculate Pts For/Against Ratio
-    sorted_agg_data['Pts For/Against Ratio'] = (sorted_agg_data['Total Points'] / sorted_agg_data['Total Points Against'].replace(0, np.nan)).round(3)
+    # Replace zero values in 'Total Points Against' with NaN
+    points_against = sorted_agg_data['Total Points Against'].replace(0, np.nan)
+
+    # Calculate the ratio and round to 3 decimal places
+    sorted_agg_data['Pts For/Against Ratio'] = (sorted_agg_data['Total Points'] / points_against).round(3)
 
     # Order columns as specified
     scoreboard = sorted_agg_data[[
-    'Division', 'Team Name', 'Rank', 'Win', 'Loss', 'Total Points',
-    'Total Points Against', 'Inter-Division Wins', 'Avg Pts For',
-    'Avg Pts Against', 'Pts For/Against Ratio'
+        'Division', 'Team Name', 'Rank', 'Win', 'Loss', 'Total Points',
+        'Total Points Against', 'Inter-Division Wins', 'Avg Pts For',
+        'Avg Pts Against', 'Pts For/Against Ratio'
     ]]
 
     return scoreboard
@@ -308,12 +313,12 @@ def calculate_division_scores(detailed_df):
 
     # Pivot to create weekly scoreboards for each division
     division_scoreboard = weekly_aggregates.pivot(
-    index='Week', columns='Division', values=['points', 'inter_division_win']
+        index='Week', columns='Division', values=['points', 'inter_division_win']
     ).fillna(0)
 
     # Flatten MultiIndex in columns after pivot
     division_scoreboard.columns = [
-    ' '.join(col).strip() for col in division_scoreboard.columns.values
+        ' '.join(col).strip() for col in division_scoreboard.columns.values
     ]
     division_scoreboard.reset_index(inplace=True)
 
@@ -393,7 +398,7 @@ all_data_df = pd.DataFrame()
 week_no = 17
 
 # Process each week
-for week in range(1, week_no+1):  # Assuming 17 weeks in the season
+for week in range(1, week_no + 1):  # Assuming 17 weeks in the season
     weekly_data = load_weekly_data(str(week))
     weekly_df = extract_data(weekly_data, cumulative_data, all_data_df)
     all_data_df = pd.concat([all_data_df, weekly_df], ignore_index=True)
@@ -403,10 +408,6 @@ all_data_df
 
 
 # In[ ]:
-
-
-
-
 
 # In[10]:
 
@@ -420,16 +421,13 @@ weekly_scoreboard
 # In[11]:
 
 
-#DIVISION WEEKLY SCOREBOARD
+# DIVISION WEEKLY SCOREBOARD
 
 division_detailed_scoreboard = calculate_division_scores(all_data_df)
 division_detailed_scoreboard
 
 
 # In[12]:
-
-
-import datetime
 
 # Get current date and time
 current_datetime = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
