@@ -3,7 +3,6 @@
 
 # In[1]:
 
-
 # v1.7 change log
 # -Fixed long lines
 # -Refactored load_weekly_data function
@@ -14,15 +13,9 @@
 # -Boints calculator
 
 
-# In[ ]:
-
-
-#!/usr/bin/env python
-# coding: utf-8
-
 """
 This script processes and analyzes weekly sports data (e.g., football scores) from JSON files.
-It generates various reports, including team scoreboards, division scoreboards, and identifies 
+It generates various reports, including team scoreboards, division scoreboards, and identifies
 the "Bad Beats" and "Overachievers" of each week.
 """
 
@@ -33,6 +26,7 @@ the "Bad Beats" and "Overachievers" of each week.
 import json
 import pandas as pd
 import numpy as np
+import datetime
 
 pd.set_option('display.max_rows', None)
 pd.set_option('display.max_columns', None)
@@ -47,19 +41,19 @@ pd.set_option('display.max_columns', None)
 def load_weekly_data(week_number):
     """
     Load data from a JSON file for a given week.
-    
+
     :param week_number: Week number as a string (e.g., '1' for week1.json)
     :return: Data loaded from the JSON file
     """
     file_path = f'scores/week{week_number}.json'
-    
+
     try:
         with open(file_path, 'r') as file:
             data = json.load(file)
     except FileNotFoundError:
         print(f"File {file_path} not found.")
         data = {}
-            
+
     # Ensure the data is in the expected dictionary format
     if isinstance(data, list):
         # If the data is a list, try to get the first element assuming it might be the correct dict
@@ -74,7 +68,7 @@ def load_weekly_data(week_number):
 def extract_data(weekly_data, cumulative_data, all_data):
     """
     Extract relevant data from the weekly JSON data and convert it to a DataFrame.
-    
+
     :param weekly_data: Data loaded from the JSON file
     :param cumulative_data: Cumulative data for win/loss record
     :param all_data: DataFrame with all previously extracted data
@@ -91,7 +85,7 @@ def extract_data(weekly_data, cumulative_data, all_data):
 
             points_against = {teams[0]['team']['team_id']: float(teams[1]['team']['team_points']['total']),
                               teams[1]['team']['team_id']: float(teams[0]['team']['team_points']['total'])
-                             }
+                              }
 
             for team in teams:
                 team_data = team['team']
@@ -119,11 +113,11 @@ def extract_data(weekly_data, cumulative_data, all_data):
                 })
 
     else:
-         if isinstance(weekly_data, dict):
+        if isinstance(weekly_data, dict):
             print(f"Data format error in week {weekly_data.get('week', 'unknown')}")
         else:
             print("Data format error: weekly_data is not a dictionary")
-        
+
     weekly_df = pd.DataFrame(extracted_data)
 
     # Calculate cumulative points, Points For/Against Ratio, and running averages
@@ -151,8 +145,9 @@ def extract_data(weekly_data, cumulative_data, all_data):
         weekly_df.loc[weekly_df['team_name'] == team, 'points_for_against_ratio'] = ratio
         # Calculate and assign running averages
         weekly_df.loc[weekly_df['team_name'] == team, 'average_points_for'] = cumulative_points / games_played
-        weekly_df.loc[weekly_df['team_name'] == team, 'average_points_against'] = cumulative_points_against / games_played
-
+        weekly_df.loc[weekly_df['team_name'] == team, 'average_points_against'] = (
+            cumulative_points_against / games_played
+        )
     return weekly_df
 
 
@@ -162,7 +157,7 @@ def extract_data(weekly_data, cumulative_data, all_data):
 # def update_cumulative_data(df, cumulative_df):
 #     """
 #     Update cumulative data for each team and division.
-#     
+#
 #     :param df: DataFrame with weekly data
 #     :param cumulative_df: DataFrame with cumulative data
 #     :return: Updated cumulative DataFrame
@@ -172,19 +167,19 @@ def extract_data(weekly_data, cumulative_data, all_data):
 #         team_id = row['team_id']
 #         team_points = row['team_points']
 #         win = row['win_probability'] > 0.5
-# 
+#
 #         if team_id not in cumulative_df.index:
 #             cumulative_df.loc[team_id] = {'total_points': 0, 'wins': 0, 'losses': 0, 'division_points': 0}
-# 
+#
 #         cumulative_df.at[team_id, 'total_points'] += team_points
 #         cumulative_df.at[team_id, 'wins'] += win
 #         cumulative_df.at[team_id, 'losses'] += not win
-# 
+#
 #     # Update division points
 #     division_points = df.groupby('division_id')['team_points'].sum()
 #     for division_id, points in division_points.items():
 #         cumulative_df.loc[cumulative_df['division_id'] == division_id, 'division_points'] += points
-# 
+#
 #     return cumulative_df
 
 
@@ -212,15 +207,15 @@ def create_scoreboard(df):
 
     # Rename columns and map division names
     agg_data.rename(columns={
-    'division_id': 'Division',
-    'team_name': 'Team Name',
-    'total_wins': 'Win',
-    'total_losses': 'Loss',
-    'points': 'Total Points',
-    'points_against': 'Total Points Against',
-    'inter_division_win': 'Inter-Division Wins'
+        'division_id': 'Division',
+        'team_name': 'Team Name',
+        'total_wins': 'Win',
+        'total_losses': 'Loss',
+        'points': 'Total Points',
+        'points_against': 'Total Points Against',
+        'inter_division_win': 'Inter-Division Wins'
     }, inplace=True)
-    
+
     agg_data['Division'] = agg_data['Division'].map(division_names)
 
     # Convert columns to numeric types
@@ -239,13 +234,17 @@ def create_scoreboard(df):
     sorted_agg_data['Rank'] = range(1, len(sorted_agg_data) + 1)
 
     # Calculate Pts For/Against Ratio
-    sorted_agg_data['Pts For/Against Ratio'] = (sorted_agg_data['Total Points'] / sorted_agg_data['Total Points Against'].replace(0, np.nan)).round(3)
+    # Replace zero values in 'Total Points Against' with NaN
+    points_against = sorted_agg_data['Total Points Against'].replace(0, np.nan)
+
+    # Calculate the ratio and round to 3 decimal places
+    sorted_agg_data['Pts For/Against Ratio'] = (sorted_agg_data['Total Points'] / points_against).round(3)
 
     # Order columns as specified
     scoreboard = sorted_agg_data[[
-    'Division', 'Team Name', 'Rank', 'Win', 'Loss', 'Total Points',
-    'Total Points Against', 'Inter-Division Wins', 'Avg Pts For', 
-    'Avg Pts Against', 'Pts For/Against Ratio'
+        'Division', 'Team Name', 'Rank', 'Win', 'Loss', 'Total Points',
+        'Total Points Against', 'Inter-Division Wins', 'Avg Pts For',
+        'Avg Pts Against', 'Pts For/Against Ratio'
     ]]
 
     return scoreboard
@@ -306,12 +305,12 @@ def calculate_division_scores(detailed_df):
 
     # Pivot to create weekly scoreboards for each division
     division_scoreboard = weekly_aggregates.pivot(
-    index='Week', columns='Division', values=['points', 'inter_division_win']
+        index='Week', columns='Division', values=['points', 'inter_division_win']
     ).fillna(0)
 
     # Flatten MultiIndex in columns after pivot
     division_scoreboard.columns = [
-    ' '.join(col).strip() for col in division_scoreboard.columns.values
+        ' '.join(col).strip() for col in division_scoreboard.columns.values
     ]
     division_scoreboard.reset_index(inplace=True)
 
@@ -327,17 +326,32 @@ def calculate_division_scores(detailed_df):
         # Iterate over each week
         for week in division_scoreboard['Week']:
             # Calculate points for current week
-            current_week_points = division_scoreboard.loc[division_scoreboard['Week'] == week, f'points {division}'].iloc[0]
-            inter_division_wins = division_scoreboard.loc[division_scoreboard['Week'] == week, f'inter_division_win {division}'].iloc[0]
+            current_week_points = division_scoreboard.loc[
+                division_scoreboard['Week'] == week, f'points {division}'
+            ].iloc[0]
+
+            inter_division_wins = division_scoreboard.loc[
+                division_scoreboard['Week'] == week, f'inter_division_win {division}'
+            ].iloc[0]
+
+            # Add points for inter_division_wins
             additional_points = 100 * inter_division_wins
 
             if week > 1:
                 # Add to previous week's total points
-                previous_total = division_scoreboard.loc[division_scoreboard['Week'] == week - 1, f'{division} Div Total Pts'].iloc[0]
-                division_scoreboard.loc[division_scoreboard['Week'] == week, f'{division} Div Total Pts'] = previous_total + current_week_points + additional_points
+                previous_total = division_scoreboard.loc[
+                    division_scoreboard['Week'] == week - 1, f'{division} Div Total Pts'
+                ].iloc[0]
+
+                division_scoreboard.loc[
+                    division_scoreboard['Week'] == week, f'{division} Div Total Pts'
+                ] = previous_total + current_week_points + additional_points
+
             else:
                 # For the first week, the total is just the current week's points
-                division_scoreboard.loc[division_scoreboard['Week'] == week, f'{division} Div Total Pts'] = current_week_points + additional_points
+                division_scoreboard.loc[
+                    division_scoreboard['Week'] == week, f'{division} Div Total Pts'
+                ] = current_week_points + additional_points
 
     # Identify the highest scoring team for each week (BMOC)
     highest_scoring_team = detailed_df.groupby('week')['points'].idxmax()
@@ -391,7 +405,7 @@ all_data_df = pd.DataFrame()
 week_no = 17
 
 # Process each week
-for week in range(1, week_no+1):  # Assuming 17 weeks in the season
+for week in range(1, week_no + 1):  # Assuming 17 weeks in the season
     weekly_data = load_weekly_data(str(week))
     weekly_df = extract_data(weekly_data, cumulative_data, all_data_df)
     all_data_df = pd.concat([all_data_df, weekly_df], ignore_index=True)
@@ -401,10 +415,6 @@ all_data_df
 
 
 # In[ ]:
-
-
-
-
 
 # In[10]:
 
@@ -418,16 +428,13 @@ weekly_scoreboard
 # In[11]:
 
 
-#DIVISION WEEKLY SCOREBOARD
+# DIVISION WEEKLY SCOREBOARD
 
 division_detailed_scoreboard = calculate_division_scores(all_data_df)
 division_detailed_scoreboard
 
 
 # In[12]:
-
-
-import datetime
 
 # Get current date and time
 current_datetime = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -447,8 +454,7 @@ division_detailed_scoreboard.to_csv(
     division_scoreboard_filename, index=False
 )
 
-# Saving the weekly scoreboard 
+# Saving the weekly scoreboard
 weekly_scoreboard.to_csv(
     weekly_scoreboard_filename, index=False
 )
-
