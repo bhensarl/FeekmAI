@@ -28,6 +28,7 @@ def load_weekly_data(season_number, week_number):
     if isinstance(data, dict):
         if 'matchups' in data:
             flat_data = json_normalize(data['matchups'], sep='_')
+            # print(f"Flattened data: {flat_data}")  # Debugging statement
             return flat_data
         else:
             print(f"No 'matchups' key found in the dictionary from {file_path}", file=sys.stderr)
@@ -38,11 +39,3 @@ def load_weekly_data(season_number, week_number):
 
     print(f"Unexpected data format in {file_path}", file=sys.stderr)
     return pd.DataFrame()  # Return an empty DataFrame for unexpected format
-
-# Example usage:
-
-
-# season_number = 2023
-# week_number = 1
-# df = load_weekly_data(season_number, week_number)
-# print(df)
