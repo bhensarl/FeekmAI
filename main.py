@@ -1,12 +1,13 @@
 # yfpy/main.py
-from yfpy.data_loader import load_weekly_data
-from yfpy.data_processor import extract_data
+from data_loader import load_weekly_data
+from data_processor import extract_data
 import pandas as pd
 
 
 def main():
+    season_number = "2023"
     week_number = '1'  # Example week number
-    weekly_data = load_weekly_data(week_number)
+    weekly_data = load_weekly_data(season_number, week_number)
     cumulative_data = {}  # Load or initialize as needed
     all_data = pd.DataFrame()  # Load or initialize as needed
 

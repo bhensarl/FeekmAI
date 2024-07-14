@@ -1,0 +1,642 @@
+{
+  "week": "11",
+  "matchups": [
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "C",
+              "team_key": "423.l.219013.t.1"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "B+",
+              "team_key": "423.l.219013.t.7"
+            }
+          }
+        ],
+        "matchup_recap_title": "Sharknadoes Dominates P01135809 with a B+ Performance",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/recap?week=11&mid1=1&mid2=7",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "division_id": "1",
+              "draft_grade": "D",
+              "draft_position": 3,
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/1/draftrecap",
+              "faab_balance": "70",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "ADD4MDMU6QB6KKHZ6WPSTZXCWM",
+                  "image_url": "https://s.yimg.com/ag/images/1836/38534872323_f7eae3_64sq.jpg",
+                  "manager_id": "1",
+                  "nickname": "danno"
+                }
+              },
+              "name": "P01135809",
+              "number_of_moves": 24,
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": 12,
+                "value": "0"
+              },
+              "team_id": "1",
+              "team_key": "423.l.219013.t.1",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/39603651843_5cc41f.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "113.74",
+                "week": "11"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "101.81",
+                "week": "11"
+              },
+              "url": "https://football.fantasysports.yahoo.com/f1/219013/1",
+              "waiver_priority": 4,
+              "win_probability": 0
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "division_id": "1",
+              "draft_grade": "C-",
+              "draft_position": 5,
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/7/draftrecap",
+              "faab_balance": "54",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "N3MH6WN3FICQKJ4XHD6XAVEGAQ",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "7",
+                  "nickname": "B"
+                }
+              },
+              "name": "Sharknadoes",
+              "number_of_moves": 13,
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": 12,
+                "value": "0"
+              },
+              "team_id": "7",
+              "team_key": "423.l.219013.t.7",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_9_b.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "122.28",
+                "week": "11"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "114.90",
+                "week": "11"
+              },
+              "url": "https://football.fantasysports.yahoo.com/f1/219013/7",
+              "waiver_priority": 8,
+              "win_probability": 1
+            }
+          }
+        ],
+        "week": "11",
+        "week_end": "2023-11-20",
+        "week_start": "2023-11-14",
+        "winner_team_key": "423.l.219013.t.7"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "C",
+              "team_key": "423.l.219013.t.2"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "B",
+              "team_key": "423.l.219013.t.6"
+            }
+          }
+        ],
+        "matchup_recap_title": "Diggs in a Blanket edges out PAC 4 Playboys in a close matchup",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/recap?week=11&mid1=2&mid2=6",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "division_id": "2",
+              "draft_grade": "A+",
+              "draft_position": 1,
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/2/draftrecap",
+              "faab_balance": "95",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "3TMDLXVHHB23GKSNKO5KYRZYNY",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "2",
+                  "nickname": "Justus"
+                }
+              },
+              "name": "PAC 4 Playboys",
+              "number_of_moves": 7,
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": 12,
+                "value": "0"
+              },
+              "team_id": "2",
+              "team_key": "423.l.219013.t.2",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_9_j.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "100.46",
+                "week": "11"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "98.85",
+                "week": "11"
+              },
+              "url": "https://football.fantasysports.yahoo.com/f1/219013/2",
+              "waiver_priority": 6,
+              "win_probability": 0
+            }
+          },
+          {
+            "team": {
+              "clinched_playoffs": 1,
+              "division_id": "2",
+              "draft_grade": "B",
+              "draft_position": 10,
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/6/draftrecap",
+              "faab_balance": "69",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "KYDUTDTRLS5SUCBQZ2XQVIZHXY",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "6",
+                  "nickname": "Justin"
+                }
+              },
+              "name": "Diggs in a Blanket",
+              "number_of_moves": 11,
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": 12,
+                "value": "0"
+              },
+              "team_id": "6",
+              "team_key": "423.l.219013.t.6",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/249a502ce0e9d7139b05e755b1b63b176c351a2f34a72f46bd954635b59e1c99.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "102.00",
+                "week": "11"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "100.36",
+                "week": "11"
+              },
+              "url": "https://football.fantasysports.yahoo.com/f1/219013/6",
+              "waiver_priority": 9,
+              "win_probability": 1
+            }
+          }
+        ],
+        "week": "11",
+        "week_end": "2023-11-20",
+        "week_start": "2023-11-14",
+        "winner_team_key": "423.l.219013.t.6"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "C-",
+              "team_key": "423.l.219013.t.3"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "B-",
+              "team_key": "423.l.219013.t.5"
+            }
+          }
+        ],
+        "matchup_recap_title": "Champ’s Chosen Ones squeaks by Rocket Man 💄 in a nail-biter",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/recap?week=11&mid1=3&mid2=5",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "division_id": "1",
+              "draft_grade": "D+",
+              "draft_position": 4,
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/3/draftrecap",
+              "faab_balance": "10",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "BF7YOXDHYODW33AFZDW4VQUD5U",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "3",
+                  "nickname": "christopher"
+                }
+              },
+              "name": "Rocket Man 💄",
+              "number_of_moves": 32,
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": 12,
+                "value": "1"
+              },
+              "team_id": "3",
+              "team_key": "423.l.219013.t.3",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/26002718789_b0e267.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "86.80",
+                "week": "11"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "93.80",
+                "week": "11"
+              },
+              "url": "https://football.fantasysports.yahoo.com/f1/219013/3",
+              "waiver_priority": 10,
+              "win_probability": 0
+            }
+          },
+          {
+            "team": {
+              "division_id": "1",
+              "draft_grade": "B",
+              "draft_position": 6,
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/5/draftrecap",
+              "faab_balance": "77",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "XHEDWQHX4S2KQRAJVGTHDJ3RJY",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "5",
+                  "nickname": "Erick"
+                }
+              },
+              "name": "Champ’s Chosen Ones",
+              "number_of_moves": 20,
+              "number_of_trades": "2",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": 12,
+                "value": "0"
+              },
+              "team_id": "5",
+              "team_key": "423.l.219013.t.5",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/b4b3d21311b327e6ca044cb220705ceb159a4ae11859d5cb1bc94075f0a31cb9.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "88.30",
+                "week": "11"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "102.66",
+                "week": "11"
+              },
+              "url": "https://football.fantasysports.yahoo.com/f1/219013/5",
+              "waiver_priority": 7,
+              "win_probability": 1
+            }
+          }
+        ],
+        "week": "11",
+        "week_end": "2023-11-20",
+        "week_start": "2023-11-14",
+        "winner_team_key": "423.l.219013.t.5"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "D",
+              "team_key": "423.l.219013.t.4"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "A-",
+              "team_key": "423.l.219013.t.9"
+            }
+          }
+        ],
+        "matchup_recap_title": "Luke Menoots Dominates My Fantasy Team with an A+ Performance",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/recap?week=11&mid1=4&mid2=9",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "division_id": "2",
+              "draft_grade": "B-",
+              "draft_position": 9,
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/4/draftrecap",
+              "faab_balance": "24",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "JYIB5FKHOAZXS4N2CUFFKO5Q4Y",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "4",
+                  "nickname": "Alex"
+                }
+              },
+              "name": "SHIT CUNT BULLSHIT",
+              "number_of_moves": 15,
+              "number_of_trades": "1",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": 12,
+                "value": "0"
+              },
+              "team_id": "4",
+              "team_key": "423.l.219013.t.4",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_3_a.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "76.04",
+                "week": "11"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "98.39",
+                "week": "11"
+              },
+              "url": "https://football.fantasysports.yahoo.com/f1/219013/4",
+              "waiver_priority": 1,
+              "win_probability": 0
+            }
+          },
+          {
+            "team": {
+              "division_id": "2",
+              "draft_grade": "A+",
+              "draft_position": 2,
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/9/draftrecap",
+              "faab_balance": "55",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "KMHYZRO62LD24JPFDP2G44AAEE",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "9",
+                  "nickname": "yide"
+                }
+              },
+              "name": "Luke Menoots",
+              "number_of_moves": 19,
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": 12,
+                "value": "1"
+              },
+              "team_id": "9",
+              "team_key": "423.l.219013.t.9",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://s.yimg.com/cv/apiv2/default/nfl/nfl_4_l.png"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "111.06",
+                "week": "11"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "111.31",
+                "week": "11"
+              },
+              "url": "https://football.fantasysports.yahoo.com/f1/219013/9",
+              "waiver_priority": 5,
+              "win_probability": 1
+            }
+          }
+        ],
+        "week": "11",
+        "week_end": "2023-11-20",
+        "week_start": "2023-11-14",
+        "winner_team_key": "423.l.219013.t.9"
+      }
+    },
+    {
+      "matchup": {
+        "is_consolation": "0",
+        "is_matchup_recap_available": 1,
+        "is_playoffs": "0",
+        "is_tied": 0,
+        "matchup_grades": [
+          {
+            "matchup_grade": {
+              "grade": "C-",
+              "team_key": "423.l.219013.t.8"
+            }
+          },
+          {
+            "matchup_grade": {
+              "grade": "B+",
+              "team_key": "423.l.219013.t.10"
+            }
+          }
+        ],
+        "matchup_recap_title": "Zynfinity & Beyond barely squeaks by BoneZone in nail-biter",
+        "matchup_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/recap?week=11&mid1=8&mid2=10",
+        "status": "postevent",
+        "teams": [
+          {
+            "team": {
+              "division_id": "2",
+              "draft_grade": "D+",
+              "draft_position": 7,
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/8/draftrecap",
+              "faab_balance": "10",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "GH6EVQYHV77KWSPQ6HMIML2INY",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "8",
+                  "nickname": "Michael"
+                }
+              },
+              "name": "BoneZone",
+              "number_of_moves": 22,
+              "number_of_trades": "3",
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": 12,
+                "value": "2"
+              },
+              "team_id": "8",
+              "team_key": "423.l.219013.t.8",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/2d69162507d02142d54f11805eaf391986fce6c112f88dece9fff5484eefe6e8.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "93.30",
+                "week": "11"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "98.37",
+                "week": "11"
+              },
+              "url": "https://football.fantasysports.yahoo.com/f1/219013/8",
+              "waiver_priority": 3,
+              "win_probability": 0
+            }
+          },
+          {
+            "team": {
+              "division_id": "1",
+              "draft_grade": "F",
+              "draft_position": 8,
+              "draft_recap_url": "https://football.fantasysports.yahoo.com/f1/219013/10/draftrecap",
+              "faab_balance": "80",
+              "has_draft_grade": 1,
+              "league_scoring_type": "head",
+              "managers": {
+                "manager": {
+                  "guid": "JP4PWLILXEXEZ2Z5TNVJCDFPMQ",
+                  "image_url": "https://s.yimg.com/ag/images/default_user_profile_pic_64sq.jpg",
+                  "manager_id": "10",
+                  "nickname": "Josh"
+                }
+              },
+              "name": "Zynfinity & Beyond",
+              "number_of_moves": 12,
+              "number_of_trades": 0,
+              "roster_adds": {
+                "coverage_type": "week",
+                "coverage_value": 12,
+                "value": "0"
+              },
+              "team_id": "10",
+              "team_key": "423.l.219013.t.10",
+              "team_logos": {
+                "team_logo": {
+                  "size": "large",
+                  "url": "https://yahoofantasysports-res.cloudinary.com/image/upload/t_s192sq/fantasy-logos/ac16ed42be345232406ec555b3f49d50f424fa25d3f85fe5c4b250f09c5ee1e1.jpg"
+                }
+              },
+              "team_points": {
+                "coverage_type": "week",
+                "total": "95.96",
+                "week": "11"
+              },
+              "team_projected_points": {
+                "coverage_type": "week",
+                "total": "90.51",
+                "week": "11"
+              },
+              "url": "https://football.fantasysports.yahoo.com/f1/219013/10",
+              "waiver_priority": 2,
+              "win_probability": 1
+            }
+          }
+        ],
+        "week": "11",
+        "week_end": "2023-11-20",
+        "week_start": "2023-11-14",
+        "winner_team_key": "423.l.219013.t.10"
+      }
+    }
+  ]
+}
