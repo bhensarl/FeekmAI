@@ -1,5 +1,5 @@
 # yfpy/data_processor.py
-import pandas as pd
+# import pandas as pd
 
 
 # def extract_data(weekly_data, cumulative_data, all_data):
