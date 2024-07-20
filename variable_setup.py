@@ -116,12 +116,12 @@ game_key = get_game_key()
 # set desired league ID (see README.md for finding value)
 def get_league_id():
     # FOOTBALL
-    # league_id = "907359"  # NFL - 2015 (divisions)
-    # league_id = "79230"  # NFL - 2019
-    # league_id = "655434"  # NFL - 2020
-    # league_id = "413954"  # NFL - 2021
-    # league_id = "791337"  # NFL - 2022 (divisions)
-    league_id = "219013"  # NFL - 2023
+    # league_id = "67583"  # NFL - 2018 FeekmaFeek https://football.fantasysports.yahoo.com/2018/f1/67583
+    # league_id = "43068"  # NFL - 2019 FeekmaFeek https://football.fantasysports.yahoo.com/2019/f1/43068
+    # league_id = "643103"  # NFL - 2020 FeekmaFeek https://football.fantasysports.yahoo.com/2020/f1/643103
+    # league_id = "333658"  # NFL - 2021 FeekmaFeek https://football.fantasysports.yahoo.com/2021/f1/333658
+    # league_id = "74941"  # NFL - 2022 FeekmaFeek https://football.fantasysports.yahoo.com/2022/f1/74941
+    league_id = "219013"  # NFL - 2023 FeekmaFeek https://football.fantasysports.yahoo.com/2023/f1/219013
 
     return league_id
 
