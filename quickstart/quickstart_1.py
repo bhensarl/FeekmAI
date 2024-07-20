@@ -49,8 +49,20 @@ data = Data(data_dir)
 
 # set desired season year
 def get_season():
+    # season = 2012
+    # season = 2013
+    # season = 2014
+    # season = 2015
+    # season = 2016
+    # season = 2017
+    # season = 2018
+    # season = 2019
+    # season = 2020
+    # season = 2021
+    # season = 2022
     season = 2023
     return season
+
 
 season = get_season()
 
@@ -59,6 +71,7 @@ season = get_season()
 def get_chosen_week():
     chosen_week = 1
     return chosen_week
+
 
 chosen_week = get_chosen_week()
 
@@ -75,6 +88,7 @@ def get_chosen_date():
 
     return chosen_date
 
+
 chosen_date = get_chosen_date()
 
 
@@ -90,6 +104,7 @@ def get_game_code():
     # game_code = "mlb"  # MLB
 
     return game_code
+
 
 game_code = get_game_code()
 
@@ -162,6 +177,15 @@ def get_league_id():
     # league_id = "791337"  # NFL - 2022 (divisions)
     league_id = "321958"  # NFL - 2023
 
+    # HOCKEY
+    # league_id = "69624"  # NHL - 2012
+    # league_id = "101592"  # NHL - 2021
+    # league_id = "6546"  # NHL - 2021 (draft pick trading)
+    # league_id = "22827"  # NHL - 2023
+    # league_id = "1031"  # NHL - 2023 (FAAB)
+
+    # BASEBALL
+    # league_id = "40134"  # MLB - 2021
 
     return league_id
 
@@ -202,6 +226,13 @@ def get_player_id():
     # FOOTBALL
     player_id = 30123  # NFL: Patrick Mahomes - 2020/2021/2023
 
+    # HOCKEY
+    # player_id = 4588  # NHL: Braden Holtby - 2012
+    # player_id = 8205  # NHL: Jeffrey Viel - 2021
+    # player_id = 3637  # NHL: Alex Ovechkin - 2021
+
+    # BASEBALL
+    # player_id = 9897  # MLB: Tim Anderson - 2021/2022
 
     return player_id
 
