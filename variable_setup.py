@@ -8,6 +8,7 @@ def get_season():
     season = 2023
     return season
 
+
 season = get_season()
 
 
@@ -15,6 +16,7 @@ season = get_season()
 def get_chosen_week():
     chosen_week = 1
     return chosen_week
+
 
 chosen_week = get_chosen_week()
 
@@ -32,6 +34,7 @@ def get_chosen_date():
 
     return chosen_date
 
+
 chosen_date = get_chosen_date()
 
 
@@ -47,6 +50,7 @@ def get_game_code():
     # game_code = "mlb"  # MLB
 
     return game_code
+
 
 game_code = get_game_code()
 
@@ -119,7 +123,6 @@ def get_league_id():
     # league_id = "791337"  # NFL - 2022 (divisions)
     league_id = "219013"  # NFL - 2023
 
-
     return league_id
 
 
@@ -158,7 +161,6 @@ team_name = get_team_name()
 def get_player_id():
     # FOOTBALL
     player_id = 30123  # NFL: Patrick Mahomes - 2020/2021/2023
-
 
     return player_id
 

@@ -10,16 +10,15 @@ import os
 import sys
 from logging import DEBUG
 from pathlib import Path
-
 from dotenv import load_dotenv
-
-project_dir = Path(__file__).parent
-sys.path.insert(0, str(project_dir))
-
-from test.integration.conftest import season, team_id
+# from test.integration.conftest import season, team_id
 from yfpy import Data
 from yfpy.logger import get_logger
 from yfpy.query import YahooFantasySportsQuery
+from variable_setup import get_season, get_game_code, get_game_id, get_game_key, get_league_id, get_team_name
+
+project_dir = Path(__file__).parent
+sys.path.insert(0, str(project_dir))
 
 """
 Example public Yahoo league URL: "https://archive.fantasysports.yahoo.com/nfl/2014/729259"
@@ -47,8 +46,7 @@ data = Data(data_dir)
 # QUERY SETUP # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-from variable_setup import get_season, get_chosen_week, get_game_code, get_game_id, get_game_key, get_league_id, get_team_name, get_team_id
-
+# from variable setup import located at top of file.  Adjust that if you want to pull additional variables.
 season = get_season()
 game_code = get_game_code()
 game_id = get_game_id()
