@@ -53,7 +53,7 @@
 # CHECK FOR MISSING DATA FIELDS # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 
-logger = get_logger("yfpy.models", DEBUG)
+# logger = get_logger("yfpy.models", DEBUG)
 
 # yahoo_query.get_all_yahoo_fantasy_game_keys()
 # yahoo_query.get_game_key_by_season(season)

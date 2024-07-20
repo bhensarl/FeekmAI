@@ -9,15 +9,13 @@ import os
 import sys
 from logging import DEBUG
 from pathlib import Path
-
 from dotenv import load_dotenv
-
-project_dir = Path(__file__).parent.parent
-sys.path.insert(0, str(project_dir))
-
 from yfpy import Data
 from yfpy.logger import get_logger
 from yfpy.query import YahooFantasySportsQuery
+
+project_dir = Path(__file__).parent.parent
+sys.path.insert(0, str(project_dir))
 
 """
 Example public Yahoo league URL: "https://archive.fantasysports.yahoo.com/nfl/2014/729259"
