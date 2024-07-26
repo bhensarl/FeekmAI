@@ -8,6 +8,8 @@ __email__ = "uberfastman@uberfastman.dev"
 
 import os
 import sys
+import pandas as pd
+
 from logging import DEBUG
 from pathlib import Path
 from dotenv import load_dotenv
@@ -57,18 +59,63 @@ team_name = get_team_name()
 # variables that change frequently
 chosen_week = 1
 
+# Dictionary linking years to their respective league IDs
+# Combined dictionary for both game IDs and league IDs by year
+combined_ids = {
+    2018: {"game_id": 380, "league_id": "67583"},  # NFL - 2018
+    2019: {"game_id": 390, "league_id": "43068"},  # NFL - 2019
+    2020: {"game_id": 399, "league_id": "643103"},  # NFL - 2020
+    2021: {"game_id": 406, "league_id": "333658"},  # NFL - 2021
+    2022: {"game_id": 414, "league_id": "74941"},   # NFL - 2022
+    2023: {"game_id": 423, "league_id": "219013"},  # NFL - 2023
+}
 
-# configure the Yahoo Fantasy Sports query (change all_output_as_json_str=True if you want to output JSON strings)
-yahoo_query = YahooFantasySportsQuery(
-    auth_dir,
-    league_id,
-    game_code,
-    game_id=game_id,
-    offline=False,
-    all_output_as_json_str=False,
-    consumer_key=os.environ["YFPY_CONSUMER_KEY"],
-    consumer_secret=os.environ["YFPY_CONSUMER_SECRET"]
-)
+def fetch_and_combine_standings(auth_dir, game_code):
+    # Initialize an empty DataFrame to store complete standings
+    standings_complete = pd.DataFrame()
+
+    for year, ids in combined_ids.items():
+        print(f"Processing year: {year}")  # Debug print to show the current year being processed
+        print(f"Game ID: {ids['game_id']}, League ID: {ids['league_id']}")
+        
+        league_id = ids["league_id"]
+        game_id = ids["game_id"]  # Use the game_id from the combined_ids dictionary
+
+        # Print the game_id and league_id to debug
+        print(f"Debug: Year: {year}, Game ID: {game_id}, League ID: {league_id}")
+
+        # Initialize the YahooFantasySportsQuery object for the current year
+        yahoo_query = YahooFantasySportsQuery(
+            auth_dir,
+            league_id,
+            game_id,
+            chosen_week,
+            offline=False,
+            all_output_as_json_str=False,
+            consumer_key=os.environ["YFPY_CONSUMER_KEY"],
+            consumer_secret=os.environ["YFPY_CONSUMER_SECRET"]
+        )
+
+        # Fetch the standings for the current year
+        standings = yahoo_query.get_league_standings()
+        print(standings)
+        # Add a column to the standings DataFrame to indicate the year
+        # standings['Year'] = year
+
+        # Append the standings to the complete standings DataFrame
+        # standings_complete = pd.concat([standings_complete, standings], ignore_index=True)
+
+    return standings_complete
+
+
+# Fetch and combine standings
+standings_complete = fetch_and_combine_standings(auth_dir, game_code)
+
+# Save the complete standings DataFrame to a CSV file
+standings_complete.to_csv('fantasy_football_standings_2018_2023.csv', index=False)
+
+# Output the DataFrame
+print(standings_complete)
 
 # Manually override league key for example code to work
 # yahoo_query.league_key = f"{game_id}.l.{league_id}"
