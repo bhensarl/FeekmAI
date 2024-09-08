@@ -17,8 +17,16 @@ from dotenv import load_dotenv
 from yfpy import Data
 from yfpy.logger import get_logger
 from yfpy.query import YahooFantasySportsQuery
-from variable_setup import get_season, get_game_code, get_game_id, get_game_key, get_league_id, get_team_name
-
+from variable_setup import (
+    get_player_id,
+    get_season,
+    get_game_code,
+    get_game_id,
+    get_game_key,
+    get_league_id,
+    get_team_name,
+    get_player_id
+)
 project_dir = Path(__file__).parent
 sys.path.insert(0, str(project_dir))
 
@@ -55,6 +63,7 @@ game_id = get_game_id()
 game_key = get_game_key()
 league_id = get_league_id()
 team_name = get_team_name()
+get_player_id = get_player_id()
 
 # variables that change frequently
 chosen_week = 1
@@ -82,7 +91,7 @@ def fetch_and_combine_standings(auth_dir, game_code):
         game_id = ids["game_id"]  # Use the game_id from the combined_ids dictionary
 
         # Print the game_id and league_id to debug
-        print(f"Debug: Year: {year}, Game ID: {game_id}, League ID: {league_id}")
+        print(f"Debug: Year: {year}, Game ID: {game_id}, League ID: {league_id}, Chosen Week: {chosen_week}")
 
         # Initialize the YahooFantasySportsQuery object for the current year
         yahoo_query = YahooFantasySportsQuery(
@@ -96,9 +105,16 @@ def fetch_and_combine_standings(auth_dir, game_code):
             consumer_secret=os.environ["YFPY_CONSUMER_SECRET"]
         )
 
+        # Manually override league key for example code to work
+        yahoo_query.league_key = f"{game_id}.l.{league_id}"
+
+        # Manually override player key for example code to work
+        player_key = f"{game_id}.p.{player_id}"
+        
         # Fetch the standings for the current year
         standings = yahoo_query.get_league_standings()
         print(standings)
+        
         # Add a column to the standings DataFrame to indicate the year
         # standings['Year'] = year
 
