@@ -109,7 +109,7 @@ def fetch_and_combine_standings(auth_dir, game_code):
         yahoo_query.league_key = f"{game_id}.l.{league_id}"
 
         # Manually override player key for example code to work
-        player_key = f"{game_id}.p.{player_id}"
+        # player_key = f"{game_id}.p.{player_id}"
         
         # Fetch the standings for the current year
         standings = yahoo_query.get_league_standings()
