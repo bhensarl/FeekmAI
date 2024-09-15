@@ -10,7 +10,7 @@ combined_ids = {
     2020: {"game_id": 399, "league_id": "643103"},  # NFL - 2020
     2021: {"game_id": 406, "league_id": "333658"},  # NFL - 2021
     2022: {"game_id": 414, "league_id": "74941"},   # NFL - 2022
-    2023: {"game_id": 423, "league_id": "219013"},  # NFL - 2023
+    2023: {"game_id": 423, "league_id": "219013"},  # NFL - 2023a
 }
 
 
