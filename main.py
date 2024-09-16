@@ -139,7 +139,9 @@ def fetch_and_combine_standings(auth_dir, game_code):
                 start_week = int(settings['start_week'])
                 end_week = int(settings['end_week'])
             else:
-                print(f"Could not find start_week and end_week in league settings for Year: {year}. Using default values.")
+                print(
+                    f"Could not find start_week and end_week in league settings for Year: {year}. Using default values."
+                )
                 start_week = 1  # Default start week
                 end_week = 17   # Default end week (adjust as needed)
 
