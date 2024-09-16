@@ -10,12 +10,12 @@ import sys
 import pandas as pd
 import time  # Import time module for delays
 
-from logging import DEBUG
+# from logging import DEBUG
 from pathlib import Path
 from datetime import datetime  # Import datetime for timestamp of csv file
 from dotenv import load_dotenv
 from yfpy import Data
-from yfpy.logger import get_logger
+# from yfpy.logger import get_logger
 from yfpy.query import YahooFantasySportsQuery
 from variable_setup import (
     get_player_id,
@@ -203,4 +203,3 @@ print(standings_complete)
 
 #  Confirm that file was created
 print("{output_filename}created successfully.")
-
