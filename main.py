@@ -52,6 +52,7 @@ league_id = get_league_id()
 team_name = get_team_name()
 player_id = get_player_id()
 
+
 # Dictionary linking years to their respective league IDs and game IDs
 combined_ids = {
     2018: {"game_id": 380, "league_id": "67583"},    # NFL - 2018
@@ -71,7 +72,23 @@ def clean_team_name(team_name):
     return cleaned_name
 
 
-def process_scoreboard_to_dataframe(scoreboard, year):
+def fetch_team_divisions(yahoo_query):
+    """Fetch team division data from the league and return a dictionary with team_key as key and division as value."""
+    team_divisions = {}
+    try:
+        teams = yahoo_query.get_league_teams()
+        for team in teams:
+            team_key = team.team_key
+            # If the team has a division attribute, capture it; otherwise, set to 'No Division'
+            team_division = getattr(team, 'division', {}).get('name', 'No Division')
+            team_divisions[team_key] = team_division
+    except Exception as e:
+        print(f"Error fetching team divisions: {e}")
+    return team_divisions
+
+
+def process_scoreboard_to_dataframe(scoreboard, year, team_divisions):
+    """Process scoreboard and merge division data into the standings DataFrame."""
     # Initialize a list to hold matchup data
     matchup_data = []
 
@@ -92,14 +109,20 @@ def process_scoreboard_to_dataframe(scoreboard, year):
             team = teams[i]
             opponent = teams[1 - i] if len(teams) > 1 else None
 
+            # Get division for both teams
+            team_division = team_divisions.get(team.team_key, 'No Division')
+            opponent_division = team_divisions.get(opponent.team_key, 'No Division') if opponent else 'No Division'
+
             team_data = {
                 'Team_Key': team.team_key,
                 'Team_Name': clean_team_name(team.name),
+                'Division': team_division,  # Add division here
                 'Points': getattr(team.team_points, 'total', 0),
                 'Week': matchup.week,
                 'Year': year,  # Set the Year explicitly
                 'Opponent_Team_Key': opponent.team_key if opponent else '',
                 'Opponent_Team_Name': clean_team_name(opponent.name) if opponent else '',
+                'Opponent_Division': opponent_division,  # Add opponent division here
                 'Opponent_Points': getattr(opponent.team_points, 'total', 0) if opponent else 0
             }
 
@@ -114,6 +137,10 @@ def process_scoreboard_to_dataframe(scoreboard, year):
 def fetch_and_combine_standings(auth_dir, game_code):
     # Initialize an empty DataFrame to store complete standings
     standings_complete = pd.DataFrame()
+
+    # Set default start and end weeks
+    start_week = 1
+    end_week = 17
 
     for year, ids in combined_ids.items():
         league_id = ids["league_id"]
@@ -135,32 +162,14 @@ def fetch_and_combine_standings(auth_dir, game_code):
             # Manually override league key
             yahoo_query.league_key = f"{game_id}.l.{league_id}"
 
-            # Fetch league settings to determine valid weeks
-            league_settings = yahoo_query.get_league_settings()
-
-            # Attempt to access start_week and end_week
-            if hasattr(league_settings, 'start_week') and hasattr(league_settings, 'end_week'):
-                start_week = int(league_settings.start_week)
-                end_week = int(league_settings.end_week)
-            elif hasattr(league_settings, 'settings'):
-                # Access nested settings
-                settings = league_settings.settings
-                start_week = int(settings['start_week'])
-                end_week = int(settings['end_week'])
-            else:
-                print(
-                    f"Could not find start_week and end_week in league settings for Year: {year}. Using default values."
-                )
-                start_week = 1  # Default start week
-                end_week = 17   # Default end week (adjust as needed)
-
             print(f"Year: {year}, Start Week: {start_week}, End Week: {end_week}")
 
+            # Fetch team divisions
+            team_divisions = fetch_team_divisions(yahoo_query)
+
         except Exception as e:
-            print(f"Error fetching league settings for Year: {year}. Error: {e}")
-            # Use default weeks if settings can't be fetched
-            start_week = 1
-            end_week = 17
+            print(f"Error fetching league settings or divisions for Year: {year}. Error: {e}")
+            team_divisions = {}
 
         for week in range(start_week, end_week + 1):
             print(f"Processing Year: {year}, Week: {week}")
@@ -168,24 +177,24 @@ def fetch_and_combine_standings(auth_dir, game_code):
                 # Fetch the scoreboard for the current week
                 scoreboard = yahoo_query.get_league_scoreboard_by_week(week)
 
-                # Check if scoreboard data exists
-                if not scoreboard:
-                    print(f"No scoreboard data for Year: {year}, Week: {week}")
-                    continue  # Skip to the next week
+                # Improved error handling: Check if the scoreboard exists and contains matchups
+                if not scoreboard or not hasattr(scoreboard, 'matchups') or not scoreboard.matchups:
+                    print(f"No valid scoreboard data for Year: {year}, Week: {week}. Skipping this week.")
+                    continue  # Skip to the next week if no data is found
 
                 # Process the scoreboard data into a DataFrame
-                standings = process_scoreboard_to_dataframe(scoreboard, year)
+                standings = process_scoreboard_to_dataframe(scoreboard, year, team_divisions)
 
                 # Check if standings DataFrame is empty
                 if standings.empty:
-                    print(f"No data to process for Year: {year}, Week: {week}")
+                    print(f"No data to process for Year: {year}, Week: {week}.")
                     continue  # Skip to the next week
 
                 # Append the standings to the complete standings DataFrame
                 standings_complete = pd.concat([standings_complete, standings], ignore_index=True)
 
                 # Respect API rate limits
-                time.sleep(1)  # Sleep for 1 second between requests
+                # time.sleep(1)  # Sleep for 1 second between requests
 
             except KeyError as e:
                 print(f"KeyError: {e} for Year: {year}, Week: {week}. Skipping this week.")
@@ -195,6 +204,8 @@ def fetch_and_combine_standings(auth_dir, game_code):
                 continue
 
     return standings_complete
+
+
 
 
 # Fetch and combine standings
@@ -213,4 +224,4 @@ standings_complete.to_csv(output_filename, index=False)
 print(standings_complete)
 
 #  Confirm that file was created
-print("{output_filename}created successfully.")
+print(f"{output_filename} created successfully.")
