@@ -9,6 +9,7 @@ import os
 import sys
 import pandas as pd
 import time  # Import time module for delays
+import re
 
 # from logging import DEBUG
 from pathlib import Path
@@ -62,6 +63,14 @@ combined_ids = {
 }
 
 
+def clean_team_name(team_name):
+    if isinstance(team_name, bytes):
+        team_name = team_name.decode('utf-8')  # Decode byte string to regular string
+    # Use regex to strip out emojis and unwanted characters (like the b'' encoding)
+    cleaned_name = re.sub(r'[^\w\s\'#-]', '', team_name).strip()
+    return cleaned_name
+
+
 def process_scoreboard_to_dataframe(scoreboard, year):
     # Initialize a list to hold matchup data
     matchup_data = []
@@ -85,12 +94,12 @@ def process_scoreboard_to_dataframe(scoreboard, year):
 
             team_data = {
                 'Team_Key': team.team_key,
-                'Team_Name': team.name,
+                'Team_Name': clean_team_name(team.name),
                 'Points': getattr(team.team_points, 'total', 0),
                 'Week': matchup.week,
                 'Year': year,  # Set the Year explicitly
                 'Opponent_Team_Key': opponent.team_key if opponent else '',
-                'Opponent_Team_Name': opponent.name if opponent else '',
+                'Opponent_Team_Name': clean_team_name(opponent.name) if opponent else '',
                 'Opponent_Points': getattr(opponent.team_points, 'total', 0) if opponent else 0
             }
 
@@ -151,7 +160,7 @@ def fetch_and_combine_standings(auth_dir, game_code):
             print(f"Error fetching league settings for Year: {year}. Error: {e}")
             # Use default weeks if settings can't be fetched
             start_week = 1
-            end_week = 16
+            end_week = 17
 
         for week in range(start_week, end_week + 1):
             print(f"Processing Year: {year}, Week: {week}")

@@ -1,0 +1,893 @@
+Team_Key,Team_Name,Points,Week,Year,Opponent_Team_Key,Opponent_Team_Name,Opponent_Points
+380.l.67583.t.1,Chadanno,116.26,1,2018,380.l.67583.t.8,Doc Y,125.22
+380.l.67583.t.8,Doc Y,125.22,1,2018,380.l.67583.t.1,Chadanno,116.26
+380.l.67583.t.2,#TheRealLandlord,136.66,1,2018,380.l.67583.t.9,Pull out ur Chubb,126.16
+380.l.67583.t.9,Pull out ur Chubb,126.16,1,2018,380.l.67583.t.2,#TheRealLandlord,136.66
+380.l.67583.t.3,Herndonkey,118.18,1,2018,380.l.67583.t.5,Champ's Chosen Ones,92.64
+380.l.67583.t.5,Champ's Chosen Ones,92.64,1,2018,380.l.67583.t.3,Herndonkey,118.18
+380.l.67583.t.4,Fat Gagger,87.74,1,2018,380.l.67583.t.7,Hep C-ity All Stars,116.24
+380.l.67583.t.7,Hep C-ity All Stars,116.24,1,2018,380.l.67583.t.4,Fat Gagger,87.74
+380.l.67583.t.6,Sharknadoes,112.84,1,2018,380.l.67583.t.10,Year of Mitch,127.74
+380.l.67583.t.10,Year of Mitch,127.74,1,2018,380.l.67583.t.6,Sharknadoes,112.84
+380.l.67583.t.1,Chadanno,103.3,2,2018,380.l.67583.t.4,Fat Gagger,106.8
+380.l.67583.t.4,Fat Gagger,106.8,2,2018,380.l.67583.t.1,Chadanno,103.3
+380.l.67583.t.2,#TheRealLandlord,108.98,2,2018,380.l.67583.t.7,Hep C-ity All Stars,87.96
+380.l.67583.t.7,Hep C-ity All Stars,87.96,2,2018,380.l.67583.t.2,#TheRealLandlord,108.98
+380.l.67583.t.3,Herndonkey,123.68,2,2018,380.l.67583.t.9,Pull out ur Chubb,114.94
+380.l.67583.t.9,Pull out ur Chubb,114.94,2,2018,380.l.67583.t.3,Herndonkey,123.68
+380.l.67583.t.5,Champ's Chosen Ones,95.76,2,2018,380.l.67583.t.10,Year of Mitch,179.98
+380.l.67583.t.10,Year of Mitch,179.98,2,2018,380.l.67583.t.5,Champ's Chosen Ones,95.76
+380.l.67583.t.6,Sharknadoes,112.1,2,2018,380.l.67583.t.8,Doc Y,119.04
+380.l.67583.t.8,Doc Y,119.04,2,2018,380.l.67583.t.6,Sharknadoes,112.1
+380.l.67583.t.1,Chadanno,99.14,3,2018,380.l.67583.t.2,#TheRealLandlord,118.32
+380.l.67583.t.2,#TheRealLandlord,118.32,3,2018,380.l.67583.t.1,Chadanno,99.14
+380.l.67583.t.3,Herndonkey,103.72,3,2018,380.l.67583.t.6,Sharknadoes,102.26
+380.l.67583.t.6,Sharknadoes,102.26,3,2018,380.l.67583.t.3,Herndonkey,103.72
+380.l.67583.t.4,Fat Gagger,114.8,3,2018,380.l.67583.t.10,Year of Mitch,150.96
+380.l.67583.t.10,Year of Mitch,150.96,3,2018,380.l.67583.t.4,Fat Gagger,114.8
+380.l.67583.t.5,Champ's Chosen Ones,87.84,3,2018,380.l.67583.t.8,Doc Y,108.48
+380.l.67583.t.8,Doc Y,108.48,3,2018,380.l.67583.t.5,Champ's Chosen Ones,87.84
+380.l.67583.t.7,Hep C-ity All Stars,87.74,3,2018,380.l.67583.t.9,Pull out ur Chubb,105.98
+380.l.67583.t.9,Pull out ur Chubb,105.98,3,2018,380.l.67583.t.7,Hep C-ity All Stars,87.74
+380.l.67583.t.1,Chadanno,76.68,4,2018,380.l.67583.t.9,Pull out ur Chubb,113.0
+380.l.67583.t.9,Pull out ur Chubb,113.0,4,2018,380.l.67583.t.1,Chadanno,76.68
+380.l.67583.t.2,#TheRealLandlord,116.48,4,2018,380.l.67583.t.10,Year of Mitch,136.96
+380.l.67583.t.10,Year of Mitch,136.96,4,2018,380.l.67583.t.2,#TheRealLandlord,116.48
+380.l.67583.t.3,Herndonkey,154.16,4,2018,380.l.67583.t.4,Fat Gagger,123.9
+380.l.67583.t.4,Fat Gagger,123.9,4,2018,380.l.67583.t.3,Herndonkey,154.16
+380.l.67583.t.5,Champ's Chosen Ones,130.94,4,2018,380.l.67583.t.6,Sharknadoes,135.56
+380.l.67583.t.6,Sharknadoes,135.56,4,2018,380.l.67583.t.5,Champ's Chosen Ones,130.94
+380.l.67583.t.7,Hep C-ity All Stars,68.42,4,2018,380.l.67583.t.8,Doc Y,136.88
+380.l.67583.t.8,Doc Y,136.88,4,2018,380.l.67583.t.7,Hep C-ity All Stars,68.42
+380.l.67583.t.1,Chadanno,100.62,5,2018,380.l.67583.t.7,Hep C-ity All Stars,99.04
+380.l.67583.t.7,Hep C-ity All Stars,99.04,5,2018,380.l.67583.t.1,Chadanno,100.62
+380.l.67583.t.2,#TheRealLandlord,101.9,5,2018,380.l.67583.t.5,Champ's Chosen Ones,143.5
+380.l.67583.t.5,Champ's Chosen Ones,143.5,5,2018,380.l.67583.t.2,#TheRealLandlord,101.9
+380.l.67583.t.3,Herndonkey,114.94,5,2018,380.l.67583.t.8,Doc Y,93.74
+380.l.67583.t.8,Doc Y,93.74,5,2018,380.l.67583.t.3,Herndonkey,114.94
+380.l.67583.t.4,Fat Gagger,129.8,5,2018,380.l.67583.t.6,Sharknadoes,138.18
+380.l.67583.t.6,Sharknadoes,138.18,5,2018,380.l.67583.t.4,Fat Gagger,129.8
+380.l.67583.t.9,Pull out ur Chubb,92.96,5,2018,380.l.67583.t.10,Year of Mitch,146.4
+380.l.67583.t.10,Year of Mitch,146.4,5,2018,380.l.67583.t.9,Pull out ur Chubb,92.96
+380.l.67583.t.1,Chadanno,137.22,6,2018,380.l.67583.t.3,Herndonkey,127.2
+380.l.67583.t.3,Herndonkey,127.2,6,2018,380.l.67583.t.1,Chadanno,137.22
+380.l.67583.t.2,#TheRealLandlord,110.36,6,2018,380.l.67583.t.6,Sharknadoes,111.88
+380.l.67583.t.6,Sharknadoes,111.88,6,2018,380.l.67583.t.2,#TheRealLandlord,110.36
+380.l.67583.t.4,Fat Gagger,99.28,6,2018,380.l.67583.t.5,Champ's Chosen Ones,172.8
+380.l.67583.t.5,Champ's Chosen Ones,172.8,6,2018,380.l.67583.t.4,Fat Gagger,99.28
+380.l.67583.t.7,Hep C-ity All Stars,141.3,6,2018,380.l.67583.t.10,Year of Mitch,161.5
+380.l.67583.t.10,Year of Mitch,161.5,6,2018,380.l.67583.t.7,Hep C-ity All Stars,141.3
+380.l.67583.t.8,Doc Y,108.08,6,2018,380.l.67583.t.9,Pull out ur Chubb,78.76
+380.l.67583.t.9,Pull out ur Chubb,78.76,6,2018,380.l.67583.t.8,Doc Y,108.08
+380.l.67583.t.1,Chadanno,158.86,7,2018,380.l.67583.t.5,Champ's Chosen Ones,148.46
+380.l.67583.t.5,Champ's Chosen Ones,148.46,7,2018,380.l.67583.t.1,Chadanno,158.86
+380.l.67583.t.2,#TheRealLandlord,112.68,7,2018,380.l.67583.t.4,Fat Gagger,126.84
+380.l.67583.t.4,Fat Gagger,126.84,7,2018,380.l.67583.t.2,#TheRealLandlord,112.68
+380.l.67583.t.3,Herndonkey,102.78,7,2018,380.l.67583.t.7,Hep C-ity All Stars,142.08
+380.l.67583.t.7,Hep C-ity All Stars,142.08,7,2018,380.l.67583.t.3,Herndonkey,102.78
+380.l.67583.t.6,Sharknadoes,101.42,7,2018,380.l.67583.t.9,Pull out ur Chubb,70.92
+380.l.67583.t.9,Pull out ur Chubb,70.92,7,2018,380.l.67583.t.6,Sharknadoes,101.42
+380.l.67583.t.8,Doc Y,122.3,7,2018,380.l.67583.t.10,Year of Mitch,97.46
+380.l.67583.t.10,Year of Mitch,97.46,7,2018,380.l.67583.t.8,Doc Y,122.3
+380.l.67583.t.1,Chadanno,95.56,8,2018,380.l.67583.t.8,Doc Y,137.62
+380.l.67583.t.8,Doc Y,137.62,8,2018,380.l.67583.t.1,Chadanno,95.56
+380.l.67583.t.2,#TheRealLandlord,94.1,8,2018,380.l.67583.t.3,Herndonkey,116.36
+380.l.67583.t.3,Herndonkey,116.36,8,2018,380.l.67583.t.2,#TheRealLandlord,94.1
+380.l.67583.t.4,Fat Gagger,123.26,8,2018,380.l.67583.t.6,Sharknadoes,120.12
+380.l.67583.t.6,Sharknadoes,120.12,8,2018,380.l.67583.t.4,Fat Gagger,123.26
+380.l.67583.t.5,Champ's Chosen Ones,160.06,8,2018,380.l.67583.t.9,Pull out ur Chubb,139.8
+380.l.67583.t.9,Pull out ur Chubb,139.8,8,2018,380.l.67583.t.5,Champ's Chosen Ones,160.06
+380.l.67583.t.7,Hep C-ity All Stars,101.64,8,2018,380.l.67583.t.10,Year of Mitch,112.4
+380.l.67583.t.10,Year of Mitch,112.4,8,2018,380.l.67583.t.7,Hep C-ity All Stars,101.64
+380.l.67583.t.1,Chadanno,72.76,9,2018,380.l.67583.t.6,Sharknadoes,115.2
+380.l.67583.t.6,Sharknadoes,115.2,9,2018,380.l.67583.t.1,Chadanno,72.76
+380.l.67583.t.2,#TheRealLandlord,156.04,9,2018,380.l.67583.t.8,Doc Y,90.3
+380.l.67583.t.8,Doc Y,90.3,9,2018,380.l.67583.t.2,#TheRealLandlord,156.04
+380.l.67583.t.3,Herndonkey,125.96,9,2018,380.l.67583.t.10,Year of Mitch,171.3
+380.l.67583.t.10,Year of Mitch,171.3,9,2018,380.l.67583.t.3,Herndonkey,125.96
+380.l.67583.t.4,Fat Gagger,109.62,9,2018,380.l.67583.t.9,Pull out ur Chubb,100.22
+380.l.67583.t.9,Pull out ur Chubb,100.22,9,2018,380.l.67583.t.4,Fat Gagger,109.62
+380.l.67583.t.5,Champ's Chosen Ones,87.28,9,2018,380.l.67583.t.7,Hep C-ity All Stars,112.06
+380.l.67583.t.7,Hep C-ity All Stars,112.06,9,2018,380.l.67583.t.5,Champ's Chosen Ones,87.28
+380.l.67583.t.1,Chadanno,142.34,10,2018,380.l.67583.t.4,Fat Gagger,119.2
+380.l.67583.t.4,Fat Gagger,119.2,10,2018,380.l.67583.t.1,Chadanno,142.34
+380.l.67583.t.2,#TheRealLandlord,91.1,10,2018,380.l.67583.t.7,Hep C-ity All Stars,90.56
+380.l.67583.t.7,Hep C-ity All Stars,90.56,10,2018,380.l.67583.t.2,#TheRealLandlord,91.1
+380.l.67583.t.3,Herndonkey,126.36,10,2018,380.l.67583.t.5,Champ's Chosen Ones,86.82
+380.l.67583.t.5,Champ's Chosen Ones,86.82,10,2018,380.l.67583.t.3,Herndonkey,126.36
+380.l.67583.t.6,Sharknadoes,143.66,10,2018,380.l.67583.t.10,Year of Mitch,138.3
+380.l.67583.t.10,Year of Mitch,138.3,10,2018,380.l.67583.t.6,Sharknadoes,143.66
+380.l.67583.t.8,Doc Y,132.5,10,2018,380.l.67583.t.9,Pull out ur Chubb,144.52
+380.l.67583.t.9,Pull out ur Chubb,144.52,10,2018,380.l.67583.t.8,Doc Y,132.5
+380.l.67583.t.1,Chadanno,125.38,11,2018,380.l.67583.t.10,Year of Mitch,130.04
+380.l.67583.t.10,Year of Mitch,130.04,11,2018,380.l.67583.t.1,Chadanno,125.38
+380.l.67583.t.2,#TheRealLandlord,113.92,11,2018,380.l.67583.t.5,Champ's Chosen Ones,147.38
+380.l.67583.t.5,Champ's Chosen Ones,147.38,11,2018,380.l.67583.t.2,#TheRealLandlord,113.92
+380.l.67583.t.3,Herndonkey,119.1,11,2018,380.l.67583.t.9,Pull out ur Chubb,124.84
+380.l.67583.t.9,Pull out ur Chubb,124.84,11,2018,380.l.67583.t.3,Herndonkey,119.1
+380.l.67583.t.4,Fat Gagger,98.58,11,2018,380.l.67583.t.8,Doc Y,86.44
+380.l.67583.t.8,Doc Y,86.44,11,2018,380.l.67583.t.4,Fat Gagger,98.58
+380.l.67583.t.6,Sharknadoes,149.72,11,2018,380.l.67583.t.7,Hep C-ity All Stars,70.58
+380.l.67583.t.7,Hep C-ity All Stars,70.58,11,2018,380.l.67583.t.6,Sharknadoes,149.72
+380.l.67583.t.1,Chadanno,110.18,12,2018,380.l.67583.t.3,Herndonkey,127.88
+380.l.67583.t.3,Herndonkey,127.88,12,2018,380.l.67583.t.1,Chadanno,110.18
+380.l.67583.t.2,#TheRealLandlord,94.94,12,2018,380.l.67583.t.4,Fat Gagger,97.82
+380.l.67583.t.4,Fat Gagger,97.82,12,2018,380.l.67583.t.2,#TheRealLandlord,94.94
+380.l.67583.t.5,Champ's Chosen Ones,125.94,12,2018,380.l.67583.t.10,Year of Mitch,130.98
+380.l.67583.t.10,Year of Mitch,130.98,12,2018,380.l.67583.t.5,Champ's Chosen Ones,125.94
+380.l.67583.t.6,Sharknadoes,115.62,12,2018,380.l.67583.t.8,Doc Y,106.24
+380.l.67583.t.8,Doc Y,106.24,12,2018,380.l.67583.t.6,Sharknadoes,115.62
+380.l.67583.t.7,Hep C-ity All Stars,127.92,12,2018,380.l.67583.t.9,Pull out ur Chubb,174.26
+380.l.67583.t.9,Pull out ur Chubb,174.26,12,2018,380.l.67583.t.7,Hep C-ity All Stars,127.92
+380.l.67583.t.1,Chadanno,90.7,13,2018,380.l.67583.t.2,#TheRealLandlord,54.68
+380.l.67583.t.2,#TheRealLandlord,54.68,13,2018,380.l.67583.t.1,Chadanno,90.7
+380.l.67583.t.3,Herndonkey,100.46,13,2018,380.l.67583.t.8,Doc Y,100.0
+380.l.67583.t.8,Doc Y,100.0,13,2018,380.l.67583.t.3,Herndonkey,100.46
+380.l.67583.t.4,Fat Gagger,101.52,13,2018,380.l.67583.t.5,Champ's Chosen Ones,152.3
+380.l.67583.t.5,Champ's Chosen Ones,152.3,13,2018,380.l.67583.t.4,Fat Gagger,101.52
+380.l.67583.t.6,Sharknadoes,123.3,13,2018,380.l.67583.t.7,Hep C-ity All Stars,117.42
+380.l.67583.t.7,Hep C-ity All Stars,117.42,13,2018,380.l.67583.t.6,Sharknadoes,123.3
+380.l.67583.t.9,Pull out ur Chubb,122.16,13,2018,380.l.67583.t.10,Year of Mitch,100.34
+380.l.67583.t.10,Year of Mitch,100.34,13,2018,380.l.67583.t.9,Pull out ur Chubb,122.16
+380.l.67583.t.3,Herndonkey,109.72,14,2018,380.l.67583.t.4,Fat Gagger,92.68
+380.l.67583.t.4,Fat Gagger,92.68,14,2018,380.l.67583.t.3,Herndonkey,109.72
+380.l.67583.t.8,Doc Y,73.78,14,2018,380.l.67583.t.9,Pull out ur Chubb,115.4
+380.l.67583.t.9,Pull out ur Chubb,115.4,14,2018,380.l.67583.t.8,Doc Y,73.78
+380.l.67583.t.1,Chadanno,76.3,15,2018,380.l.67583.t.2,#TheRealLandlord,117.26
+380.l.67583.t.2,#TheRealLandlord,117.26,15,2018,380.l.67583.t.1,Chadanno,76.3
+380.l.67583.t.3,Herndonkey,156.36,15,2018,380.l.67583.t.6,Sharknadoes,112.82
+380.l.67583.t.6,Sharknadoes,112.82,15,2018,380.l.67583.t.3,Herndonkey,156.36
+380.l.67583.t.4,Fat Gagger,76.98,15,2018,380.l.67583.t.8,Doc Y,79.98
+380.l.67583.t.8,Doc Y,79.98,15,2018,380.l.67583.t.4,Fat Gagger,76.98
+380.l.67583.t.5,Champ's Chosen Ones,85.54,15,2018,380.l.67583.t.7,Hep C-ity All Stars,101.16
+380.l.67583.t.7,Hep C-ity All Stars,101.16,15,2018,380.l.67583.t.5,Champ's Chosen Ones,85.54
+380.l.67583.t.9,Pull out ur Chubb,94.82,15,2018,380.l.67583.t.10,Year of Mitch,87.94
+380.l.67583.t.10,Year of Mitch,87.94,15,2018,380.l.67583.t.9,Pull out ur Chubb,94.82
+380.l.67583.t.1,Chadanno,95.94,16,2018,380.l.67583.t.5,Champ's Chosen Ones,132.78
+380.l.67583.t.5,Champ's Chosen Ones,132.78,16,2018,380.l.67583.t.1,Chadanno,95.94
+380.l.67583.t.2,#TheRealLandlord,132.0,16,2018,380.l.67583.t.7,Hep C-ity All Stars,105.68
+380.l.67583.t.7,Hep C-ity All Stars,105.68,16,2018,380.l.67583.t.2,#TheRealLandlord,132.0
+380.l.67583.t.3,Herndonkey,139.94,16,2018,380.l.67583.t.9,Pull out ur Chubb,79.84
+380.l.67583.t.9,Pull out ur Chubb,79.84,16,2018,380.l.67583.t.3,Herndonkey,139.94
+380.l.67583.t.6,Sharknadoes,110.12,16,2018,380.l.67583.t.10,Year of Mitch,116.06
+380.l.67583.t.10,Year of Mitch,116.06,16,2018,380.l.67583.t.6,Sharknadoes,110.12
+390.l.43068.t.1,Che Danno,152.0,1,2019,390.l.43068.t.5,BROTHER SHAMUS,127.02
+390.l.43068.t.5,BROTHER SHAMUS,127.02,1,2019,390.l.43068.t.1,Che Danno,152.0
+390.l.43068.t.2,2 Cooper's 1 Kupp,132.04,1,2019,390.l.43068.t.3,Champ's Chosen Ones,90.84
+390.l.43068.t.3,Champ's Chosen Ones,90.84,1,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,132.04
+390.l.43068.t.4,Doc Y,135.02,1,2019,390.l.43068.t.6,Hep C-ity Rejects,110.52
+390.l.43068.t.6,Hep C-ity Rejects,110.52,1,2019,390.l.43068.t.4,Doc Y,135.02
+390.l.43068.t.7,Herndiggler,113.52,1,2019,390.l.43068.t.8,Sharknadoes,89.86
+390.l.43068.t.8,Sharknadoes,89.86,1,2019,390.l.43068.t.7,Herndiggler,113.52
+390.l.43068.t.9,Uno,96.26,1,2019,390.l.43068.t.10,SBTFers,117.88
+390.l.43068.t.10,SBTFers,117.88,1,2019,390.l.43068.t.9,Uno,96.26
+390.l.43068.t.1,Che Danno,98.2,2,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,122.4
+390.l.43068.t.2,2 Cooper's 1 Kupp,122.4,2,2019,390.l.43068.t.1,Che Danno,98.2
+390.l.43068.t.3,Champ's Chosen Ones,118.52,2,2019,390.l.43068.t.7,Herndiggler,105.76
+390.l.43068.t.7,Herndiggler,105.76,2,2019,390.l.43068.t.3,Champ's Chosen Ones,118.52
+390.l.43068.t.4,Doc Y,91.14,2,2019,390.l.43068.t.10,SBTFers,107.36
+390.l.43068.t.10,SBTFers,107.36,2,2019,390.l.43068.t.4,Doc Y,91.14
+390.l.43068.t.5,BROTHER SHAMUS,172.92,2,2019,390.l.43068.t.8,Sharknadoes,114.76
+390.l.43068.t.8,Sharknadoes,114.76,2,2019,390.l.43068.t.5,BROTHER SHAMUS,172.92
+390.l.43068.t.6,Hep C-ity Rejects,111.76,2,2019,390.l.43068.t.9,Uno,95.28
+390.l.43068.t.9,Uno,95.28,2,2019,390.l.43068.t.6,Hep C-ity Rejects,111.76
+390.l.43068.t.1,Che Danno,138.62,3,2019,390.l.43068.t.9,Uno,108.98
+390.l.43068.t.9,Uno,108.98,3,2019,390.l.43068.t.1,Che Danno,138.62
+390.l.43068.t.2,2 Cooper's 1 Kupp,123.46,3,2019,390.l.43068.t.4,Doc Y,103.96
+390.l.43068.t.4,Doc Y,103.96,3,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,123.46
+390.l.43068.t.3,Champ's Chosen Ones,105.22,3,2019,390.l.43068.t.5,BROTHER SHAMUS,103.16
+390.l.43068.t.5,BROTHER SHAMUS,103.16,3,2019,390.l.43068.t.3,Champ's Chosen Ones,105.22
+390.l.43068.t.6,Hep C-ity Rejects,116.24,3,2019,390.l.43068.t.8,Sharknadoes,151.14
+390.l.43068.t.8,Sharknadoes,151.14,3,2019,390.l.43068.t.6,Hep C-ity Rejects,116.24
+390.l.43068.t.7,Herndiggler,126.0,3,2019,390.l.43068.t.10,SBTFers,135.44
+390.l.43068.t.10,SBTFers,135.44,3,2019,390.l.43068.t.7,Herndiggler,126.0
+390.l.43068.t.1,Che Danno,105.62,4,2019,390.l.43068.t.3,Champ's Chosen Ones,102.08
+390.l.43068.t.3,Champ's Chosen Ones,102.08,4,2019,390.l.43068.t.1,Che Danno,105.62
+390.l.43068.t.2,2 Cooper's 1 Kupp,108.6,4,2019,390.l.43068.t.9,Uno,110.78
+390.l.43068.t.9,Uno,110.78,4,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,108.6
+390.l.43068.t.4,Doc Y,103.9,4,2019,390.l.43068.t.10,SBTFers,81.7
+390.l.43068.t.10,SBTFers,81.7,4,2019,390.l.43068.t.4,Doc Y,103.9
+390.l.43068.t.5,BROTHER SHAMUS,157.8,4,2019,390.l.43068.t.6,Hep C-ity Rejects,80.0
+390.l.43068.t.6,Hep C-ity Rejects,80.0,4,2019,390.l.43068.t.5,BROTHER SHAMUS,157.8
+390.l.43068.t.7,Herndiggler,134.48,4,2019,390.l.43068.t.8,Sharknadoes,90.02
+390.l.43068.t.8,Sharknadoes,90.02,4,2019,390.l.43068.t.7,Herndiggler,134.48
+390.l.43068.t.1,Che Danno,110.28,5,2019,390.l.43068.t.4,Doc Y,113.86
+390.l.43068.t.4,Doc Y,113.86,5,2019,390.l.43068.t.1,Che Danno,110.28
+390.l.43068.t.2,2 Cooper's 1 Kupp,129.44,5,2019,390.l.43068.t.7,Herndiggler,154.14
+390.l.43068.t.7,Herndiggler,154.14,5,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,129.44
+390.l.43068.t.3,Champ's Chosen Ones,96.24,5,2019,390.l.43068.t.5,BROTHER SHAMUS,110.54
+390.l.43068.t.5,BROTHER SHAMUS,110.54,5,2019,390.l.43068.t.3,Champ's Chosen Ones,96.24
+390.l.43068.t.6,Hep C-ity Rejects,163.34,5,2019,390.l.43068.t.9,Uno,127.84
+390.l.43068.t.9,Uno,127.84,5,2019,390.l.43068.t.6,Hep C-ity Rejects,163.34
+390.l.43068.t.8,Sharknadoes,76.66,5,2019,390.l.43068.t.10,SBTFers,191.12
+390.l.43068.t.10,SBTFers,191.12,5,2019,390.l.43068.t.8,Sharknadoes,76.66
+390.l.43068.t.1,Che Danno,98.42,6,2019,390.l.43068.t.10,SBTFers,119.16
+390.l.43068.t.10,SBTFers,119.16,6,2019,390.l.43068.t.1,Che Danno,98.42
+390.l.43068.t.2,2 Cooper's 1 Kupp,98.84,6,2019,390.l.43068.t.6,Hep C-ity Rejects,93.6
+390.l.43068.t.6,Hep C-ity Rejects,93.6,6,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,98.84
+390.l.43068.t.3,Champ's Chosen Ones,72.72,6,2019,390.l.43068.t.9,Uno,118.44
+390.l.43068.t.9,Uno,118.44,6,2019,390.l.43068.t.3,Champ's Chosen Ones,72.72
+390.l.43068.t.4,Doc Y,128.04,6,2019,390.l.43068.t.8,Sharknadoes,109.22
+390.l.43068.t.8,Sharknadoes,109.22,6,2019,390.l.43068.t.4,Doc Y,128.04
+390.l.43068.t.5,BROTHER SHAMUS,170.42,6,2019,390.l.43068.t.7,Herndiggler,109.2
+390.l.43068.t.7,Herndiggler,109.2,6,2019,390.l.43068.t.5,BROTHER SHAMUS,170.42
+390.l.43068.t.1,Che Danno,125.88,7,2019,390.l.43068.t.6,Hep C-ity Rejects,104.32
+390.l.43068.t.6,Hep C-ity Rejects,104.32,7,2019,390.l.43068.t.1,Che Danno,125.88
+390.l.43068.t.2,2 Cooper's 1 Kupp,67.26,7,2019,390.l.43068.t.10,SBTFers,101.36
+390.l.43068.t.10,SBTFers,101.36,7,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,67.26
+390.l.43068.t.3,Champ's Chosen Ones,140.44,7,2019,390.l.43068.t.8,Sharknadoes,89.26
+390.l.43068.t.8,Sharknadoes,89.26,7,2019,390.l.43068.t.3,Champ's Chosen Ones,140.44
+390.l.43068.t.4,Doc Y,51.64,7,2019,390.l.43068.t.7,Herndiggler,93.06
+390.l.43068.t.7,Herndiggler,93.06,7,2019,390.l.43068.t.4,Doc Y,51.64
+390.l.43068.t.5,BROTHER SHAMUS,130.54,7,2019,390.l.43068.t.9,Uno,94.62
+390.l.43068.t.9,Uno,94.62,7,2019,390.l.43068.t.5,BROTHER SHAMUS,130.54
+390.l.43068.t.1,Che Danno,98.56,8,2019,390.l.43068.t.10,SBTFers,164.76
+390.l.43068.t.10,SBTFers,164.76,8,2019,390.l.43068.t.1,Che Danno,98.56
+390.l.43068.t.2,2 Cooper's 1 Kupp,124.3,8,2019,390.l.43068.t.7,Herndiggler,101.8
+390.l.43068.t.7,Herndiggler,101.8,8,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,124.3
+390.l.43068.t.3,Champ's Chosen Ones,73.68,8,2019,390.l.43068.t.6,Hep C-ity Rejects,137.26
+390.l.43068.t.6,Hep C-ity Rejects,137.26,8,2019,390.l.43068.t.3,Champ's Chosen Ones,73.68
+390.l.43068.t.4,Doc Y,87.48,8,2019,390.l.43068.t.5,BROTHER SHAMUS,133.68
+390.l.43068.t.5,BROTHER SHAMUS,133.68,8,2019,390.l.43068.t.4,Doc Y,87.48
+390.l.43068.t.8,Sharknadoes,121.64,8,2019,390.l.43068.t.9,Uno,93.36
+390.l.43068.t.9,Uno,93.36,8,2019,390.l.43068.t.8,Sharknadoes,121.64
+390.l.43068.t.1,Che Danno,110.7,9,2019,390.l.43068.t.7,Herndiggler,116.04
+390.l.43068.t.7,Herndiggler,116.04,9,2019,390.l.43068.t.1,Che Danno,110.7
+390.l.43068.t.2,2 Cooper's 1 Kupp,110.2,9,2019,390.l.43068.t.8,Sharknadoes,122.98
+390.l.43068.t.8,Sharknadoes,122.98,9,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,110.2
+390.l.43068.t.3,Champ's Chosen Ones,119.22,9,2019,390.l.43068.t.4,Doc Y,108.76
+390.l.43068.t.4,Doc Y,108.76,9,2019,390.l.43068.t.3,Champ's Chosen Ones,119.22
+390.l.43068.t.5,BROTHER SHAMUS,105.34,9,2019,390.l.43068.t.6,Hep C-ity Rejects,80.04
+390.l.43068.t.6,Hep C-ity Rejects,80.04,9,2019,390.l.43068.t.5,BROTHER SHAMUS,105.34
+390.l.43068.t.9,Uno,91.22,9,2019,390.l.43068.t.10,SBTFers,136.2
+390.l.43068.t.10,SBTFers,136.2,9,2019,390.l.43068.t.9,Uno,91.22
+390.l.43068.t.1,Che Danno,117.64,10,2019,390.l.43068.t.5,BROTHER SHAMUS,114.64
+390.l.43068.t.5,BROTHER SHAMUS,114.64,10,2019,390.l.43068.t.1,Che Danno,117.64
+390.l.43068.t.2,2 Cooper's 1 Kupp,109.68,10,2019,390.l.43068.t.6,Hep C-ity Rejects,79.22
+390.l.43068.t.6,Hep C-ity Rejects,79.22,10,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,109.68
+390.l.43068.t.3,Champ's Chosen Ones,115.48,10,2019,390.l.43068.t.4,Doc Y,82.42
+390.l.43068.t.4,Doc Y,82.42,10,2019,390.l.43068.t.3,Champ's Chosen Ones,115.48
+390.l.43068.t.7,Herndiggler,120.62,10,2019,390.l.43068.t.10,SBTFers,122.38
+390.l.43068.t.10,SBTFers,122.38,10,2019,390.l.43068.t.7,Herndiggler,120.62
+390.l.43068.t.8,Sharknadoes,87.82,10,2019,390.l.43068.t.9,Uno,155.52
+390.l.43068.t.9,Uno,155.52,10,2019,390.l.43068.t.8,Sharknadoes,87.82
+390.l.43068.t.1,Che Danno,132.24,11,2019,390.l.43068.t.8,Sharknadoes,132.66
+390.l.43068.t.8,Sharknadoes,132.66,11,2019,390.l.43068.t.1,Che Danno,132.24
+390.l.43068.t.2,2 Cooper's 1 Kupp,108.62,11,2019,390.l.43068.t.5,BROTHER SHAMUS,85.28
+390.l.43068.t.5,BROTHER SHAMUS,85.28,11,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,108.62
+390.l.43068.t.3,Champ's Chosen Ones,101.72,11,2019,390.l.43068.t.10,SBTFers,107.36
+390.l.43068.t.10,SBTFers,107.36,11,2019,390.l.43068.t.3,Champ's Chosen Ones,101.72
+390.l.43068.t.4,Doc Y,112.08,11,2019,390.l.43068.t.9,Uno,106.88
+390.l.43068.t.9,Uno,106.88,11,2019,390.l.43068.t.4,Doc Y,112.08
+390.l.43068.t.6,Hep C-ity Rejects,87.56,11,2019,390.l.43068.t.7,Herndiggler,99.06
+390.l.43068.t.7,Herndiggler,99.06,11,2019,390.l.43068.t.6,Hep C-ity Rejects,87.56
+390.l.43068.t.1,Che Danno,97.5,12,2019,390.l.43068.t.6,Hep C-ity Rejects,75.32
+390.l.43068.t.6,Hep C-ity Rejects,75.32,12,2019,390.l.43068.t.1,Che Danno,97.5
+390.l.43068.t.2,2 Cooper's 1 Kupp,81.54,12,2019,390.l.43068.t.3,Champ's Chosen Ones,103.8
+390.l.43068.t.3,Champ's Chosen Ones,103.8,12,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,81.54
+390.l.43068.t.4,Doc Y,82.44,12,2019,390.l.43068.t.8,Sharknadoes,118.32
+390.l.43068.t.8,Sharknadoes,118.32,12,2019,390.l.43068.t.4,Doc Y,82.44
+390.l.43068.t.5,BROTHER SHAMUS,112.66,12,2019,390.l.43068.t.10,SBTFers,111.1
+390.l.43068.t.10,SBTFers,111.1,12,2019,390.l.43068.t.5,BROTHER SHAMUS,112.66
+390.l.43068.t.7,Herndiggler,116.06,12,2019,390.l.43068.t.9,Uno,151.36
+390.l.43068.t.9,Uno,151.36,12,2019,390.l.43068.t.7,Herndiggler,116.06
+390.l.43068.t.1,Che Danno,111.18,13,2019,390.l.43068.t.4,Doc Y,90.76
+390.l.43068.t.4,Doc Y,90.76,13,2019,390.l.43068.t.1,Che Danno,111.18
+390.l.43068.t.2,2 Cooper's 1 Kupp,119.26,13,2019,390.l.43068.t.9,Uno,81.9
+390.l.43068.t.9,Uno,81.9,13,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,119.26
+390.l.43068.t.3,Champ's Chosen Ones,90.72,13,2019,390.l.43068.t.8,Sharknadoes,116.72
+390.l.43068.t.8,Sharknadoes,116.72,13,2019,390.l.43068.t.3,Champ's Chosen Ones,90.72
+390.l.43068.t.5,BROTHER SHAMUS,80.7,13,2019,390.l.43068.t.7,Herndiggler,94.72
+390.l.43068.t.7,Herndiggler,94.72,13,2019,390.l.43068.t.5,BROTHER SHAMUS,80.7
+390.l.43068.t.6,Hep C-ity Rejects,106.66,13,2019,390.l.43068.t.10,SBTFers,84.64
+390.l.43068.t.10,SBTFers,84.64,13,2019,390.l.43068.t.6,Hep C-ity Rejects,106.66
+390.l.43068.t.1,Che Danno,129.0,14,2019,390.l.43068.t.7,Herndiggler,95.0
+390.l.43068.t.7,Herndiggler,95.0,14,2019,390.l.43068.t.1,Che Danno,129.0
+390.l.43068.t.2,2 Cooper's 1 Kupp,105.08,14,2019,390.l.43068.t.8,Sharknadoes,88.06
+390.l.43068.t.8,Sharknadoes,88.06,14,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,105.08
+390.l.43068.t.1,Che Danno,117.3,15,2019,390.l.43068.t.10,SBTFers,127.08
+390.l.43068.t.10,SBTFers,127.08,15,2019,390.l.43068.t.1,Che Danno,117.3
+390.l.43068.t.2,2 Cooper's 1 Kupp,99.88,15,2019,390.l.43068.t.5,BROTHER SHAMUS,137.4
+390.l.43068.t.5,BROTHER SHAMUS,137.4,15,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,99.88
+390.l.43068.t.3,Champ's Chosen Ones,110.94,15,2019,390.l.43068.t.6,Hep C-ity Rejects,90.92
+390.l.43068.t.6,Hep C-ity Rejects,90.92,15,2019,390.l.43068.t.3,Champ's Chosen Ones,110.94
+390.l.43068.t.4,Doc Y,118.26,15,2019,390.l.43068.t.9,Uno,117.58
+390.l.43068.t.9,Uno,117.58,15,2019,390.l.43068.t.4,Doc Y,118.26
+390.l.43068.t.7,Herndiggler,106.46,15,2019,390.l.43068.t.8,Sharknadoes,150.22
+390.l.43068.t.8,Sharknadoes,150.22,15,2019,390.l.43068.t.7,Herndiggler,106.46
+390.l.43068.t.1,Che Danno,96.72,16,2019,390.l.43068.t.2,2 Cooper's 1 Kupp,100.06
+390.l.43068.t.2,2 Cooper's 1 Kupp,100.06,16,2019,390.l.43068.t.1,Che Danno,96.72
+390.l.43068.t.3,Champ's Chosen Ones,114.96,16,2019,390.l.43068.t.4,Doc Y,107.76
+390.l.43068.t.4,Doc Y,107.76,16,2019,390.l.43068.t.3,Champ's Chosen Ones,114.96
+390.l.43068.t.5,BROTHER SHAMUS,113.74,16,2019,390.l.43068.t.10,SBTFers,113.06
+390.l.43068.t.10,SBTFers,113.06,16,2019,390.l.43068.t.5,BROTHER SHAMUS,113.74
+390.l.43068.t.6,Hep C-ity Rejects,72.66,16,2019,390.l.43068.t.9,Uno,122.42
+390.l.43068.t.9,Uno,122.42,16,2019,390.l.43068.t.6,Hep C-ity Rejects,72.66
+399.l.643103.t.1,daniel,122.68,1,2020,399.l.643103.t.2,Mixon It Up,73.9
+399.l.643103.t.2,Mixon It Up,73.9,1,2020,399.l.643103.t.1,daniel,122.68
+399.l.643103.t.3,Champ's Chosen Ones,144.16,1,2020,399.l.643103.t.8,Sharknadoes,145.92
+399.l.643103.t.8,Sharknadoes,145.92,1,2020,399.l.643103.t.3,Champ's Chosen Ones,144.16
+399.l.643103.t.4,Doc Y,116.74,1,2020,399.l.643103.t.7,Herndiggler,150.14
+399.l.643103.t.7,Herndiggler,150.14,1,2020,399.l.643103.t.4,Doc Y,116.74
+399.l.643103.t.5,BROTHER SHAMUS,121.0,1,2020,399.l.643103.t.10,SBTFers,69.7
+399.l.643103.t.10,SBTFers,69.7,1,2020,399.l.643103.t.5,BROTHER SHAMUS,121.0
+399.l.643103.t.1,daniel,142.22,2,2020,399.l.643103.t.3,Champ's Chosen Ones,97.1
+399.l.643103.t.3,Champ's Chosen Ones,97.1,2,2020,399.l.643103.t.1,daniel,142.22
+399.l.643103.t.2,Mixon It Up,89.38,2,2020,399.l.643103.t.10,SBTFers,121.5
+399.l.643103.t.10,SBTFers,121.5,2,2020,399.l.643103.t.2,Mixon It Up,89.38
+399.l.643103.t.4,Doc Y,140.8,2,2020,399.l.643103.t.8,Sharknadoes,149.62
+399.l.643103.t.8,Sharknadoes,149.62,2,2020,399.l.643103.t.4,Doc Y,140.8
+399.l.643103.t.5,BROTHER SHAMUS,121.16,2,2020,399.l.643103.t.7,Herndiggler,123.48
+399.l.643103.t.7,Herndiggler,123.48,2,2020,399.l.643103.t.5,BROTHER SHAMUS,121.16
+399.l.643103.t.1,daniel,139.8,3,2020,399.l.643103.t.4,Doc Y,136.08
+399.l.643103.t.4,Doc Y,136.08,3,2020,399.l.643103.t.1,daniel,139.8
+399.l.643103.t.2,Mixon It Up,84.22,3,2020,399.l.643103.t.3,Champ's Chosen Ones,91.98
+399.l.643103.t.3,Champ's Chosen Ones,91.98,3,2020,399.l.643103.t.2,Mixon It Up,84.22
+399.l.643103.t.5,BROTHER SHAMUS,150.58,3,2020,399.l.643103.t.8,Sharknadoes,124.62
+399.l.643103.t.8,Sharknadoes,124.62,3,2020,399.l.643103.t.5,BROTHER SHAMUS,150.58
+399.l.643103.t.7,Herndiggler,137.0,3,2020,399.l.643103.t.10,SBTFers,119.0
+399.l.643103.t.10,SBTFers,119.0,3,2020,399.l.643103.t.7,Herndiggler,137.0
+399.l.643103.t.1,daniel,70.5,4,2020,399.l.643103.t.5,BROTHER SHAMUS,135.72
+399.l.643103.t.5,BROTHER SHAMUS,135.72,4,2020,399.l.643103.t.1,daniel,70.5
+399.l.643103.t.2,Mixon It Up,197.68,4,2020,399.l.643103.t.4,Doc Y,115.08
+399.l.643103.t.4,Doc Y,115.08,4,2020,399.l.643103.t.2,Mixon It Up,197.68
+399.l.643103.t.3,Champ's Chosen Ones,105.1,4,2020,399.l.643103.t.10,SBTFers,80.42
+399.l.643103.t.10,SBTFers,80.42,4,2020,399.l.643103.t.3,Champ's Chosen Ones,105.1
+399.l.643103.t.7,Herndiggler,84.44,4,2020,399.l.643103.t.8,Sharknadoes,114.6
+399.l.643103.t.8,Sharknadoes,114.6,4,2020,399.l.643103.t.7,Herndiggler,84.44
+399.l.643103.t.1,daniel,101.18,5,2020,399.l.643103.t.7,Herndiggler,128.1
+399.l.643103.t.7,Herndiggler,128.1,5,2020,399.l.643103.t.1,daniel,101.18
+399.l.643103.t.2,Mixon It Up,94.92,5,2020,399.l.643103.t.5,BROTHER SHAMUS,128.3
+399.l.643103.t.5,BROTHER SHAMUS,128.3,5,2020,399.l.643103.t.2,Mixon It Up,94.92
+399.l.643103.t.3,Champ's Chosen Ones,114.24,5,2020,399.l.643103.t.4,Doc Y,107.94
+399.l.643103.t.4,Doc Y,107.94,5,2020,399.l.643103.t.3,Champ's Chosen Ones,114.24
+399.l.643103.t.8,Sharknadoes,145.06,5,2020,399.l.643103.t.10,SBTFers,92.0
+399.l.643103.t.10,SBTFers,92.0,5,2020,399.l.643103.t.8,Sharknadoes,145.06
+399.l.643103.t.1,daniel,140.36,6,2020,399.l.643103.t.8,Sharknadoes,111.3
+399.l.643103.t.8,Sharknadoes,111.3,6,2020,399.l.643103.t.1,daniel,140.36
+399.l.643103.t.2,Mixon It Up,72.0,6,2020,399.l.643103.t.7,Herndiggler,145.1
+399.l.643103.t.7,Herndiggler,145.1,6,2020,399.l.643103.t.2,Mixon It Up,72.0
+399.l.643103.t.3,Champ's Chosen Ones,98.18,6,2020,399.l.643103.t.5,BROTHER SHAMUS,87.44
+399.l.643103.t.5,BROTHER SHAMUS,87.44,6,2020,399.l.643103.t.3,Champ's Chosen Ones,98.18
+399.l.643103.t.4,Doc Y,92.98,6,2020,399.l.643103.t.10,SBTFers,116.32
+399.l.643103.t.10,SBTFers,116.32,6,2020,399.l.643103.t.4,Doc Y,92.98
+399.l.643103.t.1,daniel,127.42,7,2020,399.l.643103.t.10,SBTFers,150.7
+399.l.643103.t.10,SBTFers,150.7,7,2020,399.l.643103.t.1,daniel,127.42
+399.l.643103.t.2,Mixon It Up,110.02,7,2020,399.l.643103.t.8,Sharknadoes,112.46
+399.l.643103.t.8,Sharknadoes,112.46,7,2020,399.l.643103.t.2,Mixon It Up,110.02
+399.l.643103.t.3,Champ's Chosen Ones,65.12,7,2020,399.l.643103.t.7,Herndiggler,132.7
+399.l.643103.t.7,Herndiggler,132.7,7,2020,399.l.643103.t.3,Champ's Chosen Ones,65.12
+399.l.643103.t.4,Doc Y,83.82,7,2020,399.l.643103.t.5,BROTHER SHAMUS,109.5
+399.l.643103.t.5,BROTHER SHAMUS,109.5,7,2020,399.l.643103.t.4,Doc Y,83.82
+399.l.643103.t.1,daniel,108.44,8,2020,399.l.643103.t.2,Mixon It Up,106.54
+399.l.643103.t.2,Mixon It Up,106.54,8,2020,399.l.643103.t.1,daniel,108.44
+399.l.643103.t.3,Champ's Chosen Ones,84.62,8,2020,399.l.643103.t.8,Sharknadoes,121.42
+399.l.643103.t.8,Sharknadoes,121.42,8,2020,399.l.643103.t.3,Champ's Chosen Ones,84.62
+399.l.643103.t.4,Doc Y,90.12,8,2020,399.l.643103.t.7,Herndiggler,127.44
+399.l.643103.t.7,Herndiggler,127.44,8,2020,399.l.643103.t.4,Doc Y,90.12
+399.l.643103.t.5,BROTHER SHAMUS,127.52,8,2020,399.l.643103.t.10,SBTFers,75.56
+399.l.643103.t.10,SBTFers,75.56,8,2020,399.l.643103.t.5,BROTHER SHAMUS,127.52
+399.l.643103.t.1,daniel,102.5,9,2020,399.l.643103.t.3,Champ's Chosen Ones,97.34
+399.l.643103.t.3,Champ's Chosen Ones,97.34,9,2020,399.l.643103.t.1,daniel,102.5
+399.l.643103.t.2,Mixon It Up,104.7,9,2020,399.l.643103.t.10,SBTFers,92.9
+399.l.643103.t.10,SBTFers,92.9,9,2020,399.l.643103.t.2,Mixon It Up,104.7
+399.l.643103.t.4,Doc Y,89.24,9,2020,399.l.643103.t.8,Sharknadoes,139.74
+399.l.643103.t.8,Sharknadoes,139.74,9,2020,399.l.643103.t.4,Doc Y,89.24
+399.l.643103.t.5,BROTHER SHAMUS,128.8,9,2020,399.l.643103.t.7,Herndiggler,112.58
+399.l.643103.t.7,Herndiggler,112.58,9,2020,399.l.643103.t.5,BROTHER SHAMUS,128.8
+399.l.643103.t.1,daniel,107.62,10,2020,399.l.643103.t.4,Doc Y,82.82
+399.l.643103.t.4,Doc Y,82.82,10,2020,399.l.643103.t.1,daniel,107.62
+399.l.643103.t.2,Mixon It Up,77.8,10,2020,399.l.643103.t.3,Champ's Chosen Ones,113.48
+399.l.643103.t.3,Champ's Chosen Ones,113.48,10,2020,399.l.643103.t.2,Mixon It Up,77.8
+399.l.643103.t.5,BROTHER SHAMUS,111.06,10,2020,399.l.643103.t.8,Sharknadoes,86.52
+399.l.643103.t.8,Sharknadoes,86.52,10,2020,399.l.643103.t.5,BROTHER SHAMUS,111.06
+399.l.643103.t.7,Herndiggler,63.64,10,2020,399.l.643103.t.10,SBTFers,113.1
+399.l.643103.t.10,SBTFers,113.1,10,2020,399.l.643103.t.7,Herndiggler,63.64
+399.l.643103.t.1,daniel,99.28,11,2020,399.l.643103.t.5,BROTHER SHAMUS,100.84
+399.l.643103.t.5,BROTHER SHAMUS,100.84,11,2020,399.l.643103.t.1,daniel,99.28
+399.l.643103.t.2,Mixon It Up,122.94,11,2020,399.l.643103.t.4,Doc Y,107.68
+399.l.643103.t.4,Doc Y,107.68,11,2020,399.l.643103.t.2,Mixon It Up,122.94
+399.l.643103.t.3,Champ's Chosen Ones,117.44,11,2020,399.l.643103.t.10,SBTFers,110.46
+399.l.643103.t.10,SBTFers,110.46,11,2020,399.l.643103.t.3,Champ's Chosen Ones,117.44
+399.l.643103.t.7,Herndiggler,111.42,11,2020,399.l.643103.t.8,Sharknadoes,136.92
+399.l.643103.t.8,Sharknadoes,136.92,11,2020,399.l.643103.t.7,Herndiggler,111.42
+399.l.643103.t.1,daniel,113.5,12,2020,399.l.643103.t.7,Herndiggler,168.68
+399.l.643103.t.7,Herndiggler,168.68,12,2020,399.l.643103.t.1,daniel,113.5
+399.l.643103.t.2,Mixon It Up,99.14,12,2020,399.l.643103.t.5,BROTHER SHAMUS,94.3
+399.l.643103.t.5,BROTHER SHAMUS,94.3,12,2020,399.l.643103.t.2,Mixon It Up,99.14
+399.l.643103.t.3,Champ's Chosen Ones,115.24,12,2020,399.l.643103.t.4,Doc Y,92.3
+399.l.643103.t.4,Doc Y,92.3,12,2020,399.l.643103.t.3,Champ's Chosen Ones,115.24
+399.l.643103.t.8,Sharknadoes,152.32,12,2020,399.l.643103.t.10,SBTFers,107.28
+399.l.643103.t.10,SBTFers,107.28,12,2020,399.l.643103.t.8,Sharknadoes,152.32
+399.l.643103.t.1,daniel,86.52,13,2020,399.l.643103.t.8,Sharknadoes,112.84
+399.l.643103.t.8,Sharknadoes,112.84,13,2020,399.l.643103.t.1,daniel,86.52
+399.l.643103.t.2,Mixon It Up,85.3,13,2020,399.l.643103.t.7,Herndiggler,135.72
+399.l.643103.t.7,Herndiggler,135.72,13,2020,399.l.643103.t.2,Mixon It Up,85.3
+399.l.643103.t.3,Champ's Chosen Ones,84.26,13,2020,399.l.643103.t.5,BROTHER SHAMUS,103.46
+399.l.643103.t.5,BROTHER SHAMUS,103.46,13,2020,399.l.643103.t.3,Champ's Chosen Ones,84.26
+399.l.643103.t.4,Doc Y,104.48,13,2020,399.l.643103.t.10,SBTFers,142.0
+399.l.643103.t.10,SBTFers,142.0,13,2020,399.l.643103.t.4,Doc Y,104.48
+399.l.643103.t.1,daniel,125.94,14,2020,399.l.643103.t.10,SBTFers,107.16
+399.l.643103.t.10,SBTFers,107.16,14,2020,399.l.643103.t.1,daniel,125.94
+399.l.643103.t.2,Mixon It Up,97.2,14,2020,399.l.643103.t.8,Sharknadoes,114.54
+399.l.643103.t.8,Sharknadoes,114.54,14,2020,399.l.643103.t.2,Mixon It Up,97.2
+399.l.643103.t.3,Champ's Chosen Ones,81.52,14,2020,399.l.643103.t.7,Herndiggler,185.82
+399.l.643103.t.7,Herndiggler,185.82,14,2020,399.l.643103.t.3,Champ's Chosen Ones,81.52
+399.l.643103.t.4,Doc Y,103.84,14,2020,399.l.643103.t.5,BROTHER SHAMUS,144.72
+399.l.643103.t.5,BROTHER SHAMUS,144.72,14,2020,399.l.643103.t.4,Doc Y,103.84
+399.l.643103.t.1,daniel,100.94,15,2020,399.l.643103.t.8,Sharknadoes,111.7
+399.l.643103.t.8,Sharknadoes,111.7,15,2020,399.l.643103.t.1,daniel,100.94
+399.l.643103.t.2,Mixon It Up,70.52,15,2020,399.l.643103.t.10,SBTFers,103.74
+399.l.643103.t.10,SBTFers,103.74,15,2020,399.l.643103.t.2,Mixon It Up,70.52
+399.l.643103.t.3,Champ's Chosen Ones,114.06,15,2020,399.l.643103.t.4,Doc Y,126.32
+399.l.643103.t.4,Doc Y,126.32,15,2020,399.l.643103.t.3,Champ's Chosen Ones,114.06
+399.l.643103.t.5,BROTHER SHAMUS,145.22,15,2020,399.l.643103.t.7,Herndiggler,144.46
+399.l.643103.t.7,Herndiggler,144.46,15,2020,399.l.643103.t.5,BROTHER SHAMUS,145.22
+399.l.643103.t.1,daniel,98.2,16,2020,399.l.643103.t.7,Herndiggler,139.42
+399.l.643103.t.7,Herndiggler,139.42,16,2020,399.l.643103.t.1,daniel,98.2
+399.l.643103.t.2,Mixon It Up,113.24,16,2020,399.l.643103.t.3,Champ's Chosen Ones,68.32
+399.l.643103.t.3,Champ's Chosen Ones,68.32,16,2020,399.l.643103.t.2,Mixon It Up,113.24
+399.l.643103.t.4,Doc Y,90.68,16,2020,399.l.643103.t.10,SBTFers,77.68
+399.l.643103.t.10,SBTFers,77.68,16,2020,399.l.643103.t.4,Doc Y,90.68
+399.l.643103.t.5,BROTHER SHAMUS,141.32,16,2020,399.l.643103.t.8,Sharknadoes,169.76
+399.l.643103.t.8,Sharknadoes,169.76,16,2020,399.l.643103.t.5,BROTHER SHAMUS,141.32
+406.l.333658.t.1,Barry McCokiner,139.06,1,2021,406.l.333658.t.8,SBTFers,105.1
+406.l.333658.t.8,SBTFers,105.1,1,2021,406.l.333658.t.1,Barry McCokiner,139.06
+406.l.333658.t.2,T-REX AllStars,73.92,1,2021,406.l.333658.t.5,SHIRT COCKING,105.82
+406.l.333658.t.5,SHIRT COCKING,105.82,1,2021,406.l.333658.t.2,T-REX AllStars,73.92
+406.l.333658.t.3,Champ's Chosen Ones,128.06,1,2021,406.l.333658.t.7,Sharknadoes,120.7
+406.l.333658.t.7,Sharknadoes,120.7,1,2021,406.l.333658.t.3,Champ's Chosen Ones,128.06
+406.l.333658.t.4,Juan Afuk zeepincuzin,134.08,1,2021,406.l.333658.t.6,Mrs Zeepincuzin,99.7
+406.l.333658.t.6,Mrs Zeepincuzin,99.7,1,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,134.08
+406.l.333658.t.1,Barry McCokiner,137.04,2,2021,406.l.333658.t.5,SHIRT COCKING,73.78
+406.l.333658.t.5,SHIRT COCKING,73.78,2,2021,406.l.333658.t.1,Barry McCokiner,137.04
+406.l.333658.t.2,T-REX AllStars,94.9,2,2021,406.l.333658.t.8,SBTFers,115.06
+406.l.333658.t.8,SBTFers,115.06,2,2021,406.l.333658.t.2,T-REX AllStars,94.9
+406.l.333658.t.3,Champ's Chosen Ones,153.3,2,2021,406.l.333658.t.6,Mrs Zeepincuzin,135.36
+406.l.333658.t.6,Mrs Zeepincuzin,135.36,2,2021,406.l.333658.t.3,Champ's Chosen Ones,153.3
+406.l.333658.t.4,Juan Afuk zeepincuzin,123.42,2,2021,406.l.333658.t.7,Sharknadoes,129.52
+406.l.333658.t.7,Sharknadoes,129.52,2,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,123.42
+406.l.333658.t.1,Barry McCokiner,103.98,3,2021,406.l.333658.t.2,T-REX AllStars,116.24
+406.l.333658.t.2,T-REX AllStars,116.24,3,2021,406.l.333658.t.1,Barry McCokiner,103.98
+406.l.333658.t.3,Champ's Chosen Ones,73.14,3,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,88.1
+406.l.333658.t.4,Juan Afuk zeepincuzin,88.1,3,2021,406.l.333658.t.3,Champ's Chosen Ones,73.14
+406.l.333658.t.5,SHIRT COCKING,98.92,3,2021,406.l.333658.t.8,SBTFers,108.02
+406.l.333658.t.8,SBTFers,108.02,3,2021,406.l.333658.t.5,SHIRT COCKING,98.92
+406.l.333658.t.6,Mrs Zeepincuzin,117.78,3,2021,406.l.333658.t.7,Sharknadoes,131.92
+406.l.333658.t.7,Sharknadoes,131.92,3,2021,406.l.333658.t.6,Mrs Zeepincuzin,117.78
+406.l.333658.t.1,Barry McCokiner,100.96,4,2021,406.l.333658.t.7,Sharknadoes,79.96
+406.l.333658.t.7,Sharknadoes,79.96,4,2021,406.l.333658.t.1,Barry McCokiner,100.96
+406.l.333658.t.2,T-REX AllStars,120.12,4,2021,406.l.333658.t.6,Mrs Zeepincuzin,151.84
+406.l.333658.t.6,Mrs Zeepincuzin,151.84,4,2021,406.l.333658.t.2,T-REX AllStars,120.12
+406.l.333658.t.3,Champ's Chosen Ones,79.72,4,2021,406.l.333658.t.8,SBTFers,106.92
+406.l.333658.t.8,SBTFers,106.92,4,2021,406.l.333658.t.3,Champ's Chosen Ones,79.72
+406.l.333658.t.4,Juan Afuk zeepincuzin,135.32,4,2021,406.l.333658.t.5,SHIRT COCKING,87.9
+406.l.333658.t.5,SHIRT COCKING,87.9,4,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,135.32
+406.l.333658.t.1,Barry McCokiner,132.44,5,2021,406.l.333658.t.6,Mrs Zeepincuzin,133.78
+406.l.333658.t.6,Mrs Zeepincuzin,133.78,5,2021,406.l.333658.t.1,Barry McCokiner,132.44
+406.l.333658.t.2,T-REX AllStars,141.06,5,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,132.68
+406.l.333658.t.4,Juan Afuk zeepincuzin,132.68,5,2021,406.l.333658.t.2,T-REX AllStars,141.06
+406.l.333658.t.3,Champ's Chosen Ones,116.76,5,2021,406.l.333658.t.5,SHIRT COCKING,131.88
+406.l.333658.t.5,SHIRT COCKING,131.88,5,2021,406.l.333658.t.3,Champ's Chosen Ones,116.76
+406.l.333658.t.7,Sharknadoes,106.98,5,2021,406.l.333658.t.8,SBTFers,171.6
+406.l.333658.t.8,SBTFers,171.6,5,2021,406.l.333658.t.7,Sharknadoes,106.98
+406.l.333658.t.1,Barry McCokiner,115.98,6,2021,406.l.333658.t.8,SBTFers,114.22
+406.l.333658.t.8,SBTFers,114.22,6,2021,406.l.333658.t.1,Barry McCokiner,115.98
+406.l.333658.t.2,T-REX AllStars,120.2,6,2021,406.l.333658.t.5,SHIRT COCKING,135.8
+406.l.333658.t.5,SHIRT COCKING,135.8,6,2021,406.l.333658.t.2,T-REX AllStars,120.2
+406.l.333658.t.3,Champ's Chosen Ones,126.96,6,2021,406.l.333658.t.7,Sharknadoes,124.3
+406.l.333658.t.7,Sharknadoes,124.3,6,2021,406.l.333658.t.3,Champ's Chosen Ones,126.96
+406.l.333658.t.4,Juan Afuk zeepincuzin,116.28,6,2021,406.l.333658.t.6,Mrs Zeepincuzin,103.18
+406.l.333658.t.6,Mrs Zeepincuzin,103.18,6,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,116.28
+406.l.333658.t.1,Barry McCokiner,128.54,7,2021,406.l.333658.t.5,SHIRT COCKING,80.16
+406.l.333658.t.5,SHIRT COCKING,80.16,7,2021,406.l.333658.t.1,Barry McCokiner,128.54
+406.l.333658.t.2,T-REX AllStars,124.96,7,2021,406.l.333658.t.8,SBTFers,145.54
+406.l.333658.t.8,SBTFers,145.54,7,2021,406.l.333658.t.2,T-REX AllStars,124.96
+406.l.333658.t.3,Champ's Chosen Ones,110.04,7,2021,406.l.333658.t.6,Mrs Zeepincuzin,105.28
+406.l.333658.t.6,Mrs Zeepincuzin,105.28,7,2021,406.l.333658.t.3,Champ's Chosen Ones,110.04
+406.l.333658.t.4,Juan Afuk zeepincuzin,109.64,7,2021,406.l.333658.t.7,Sharknadoes,135.74
+406.l.333658.t.7,Sharknadoes,135.74,7,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,109.64
+406.l.333658.t.1,Barry McCokiner,135.5,8,2021,406.l.333658.t.2,T-REX AllStars,114.06
+406.l.333658.t.2,T-REX AllStars,114.06,8,2021,406.l.333658.t.1,Barry McCokiner,135.5
+406.l.333658.t.3,Champ's Chosen Ones,81.16,8,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,71.2
+406.l.333658.t.4,Juan Afuk zeepincuzin,71.2,8,2021,406.l.333658.t.3,Champ's Chosen Ones,81.16
+406.l.333658.t.5,SHIRT COCKING,106.8,8,2021,406.l.333658.t.8,SBTFers,123.26
+406.l.333658.t.8,SBTFers,123.26,8,2021,406.l.333658.t.5,SHIRT COCKING,106.8
+406.l.333658.t.6,Mrs Zeepincuzin,120.6,8,2021,406.l.333658.t.7,Sharknadoes,81.56
+406.l.333658.t.7,Sharknadoes,81.56,8,2021,406.l.333658.t.6,Mrs Zeepincuzin,120.6
+406.l.333658.t.1,Barry McCokiner,100.18,9,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,62.94
+406.l.333658.t.4,Juan Afuk zeepincuzin,62.94,9,2021,406.l.333658.t.1,Barry McCokiner,100.18
+406.l.333658.t.2,T-REX AllStars,91.44,9,2021,406.l.333658.t.3,Champ's Chosen Ones,98.98
+406.l.333658.t.3,Champ's Chosen Ones,98.98,9,2021,406.l.333658.t.2,T-REX AllStars,91.44
+406.l.333658.t.5,SHIRT COCKING,80.16,9,2021,406.l.333658.t.7,Sharknadoes,96.08
+406.l.333658.t.7,Sharknadoes,96.08,9,2021,406.l.333658.t.5,SHIRT COCKING,80.16
+406.l.333658.t.6,Mrs Zeepincuzin,99.74,9,2021,406.l.333658.t.8,SBTFers,110.56
+406.l.333658.t.8,SBTFers,110.56,9,2021,406.l.333658.t.6,Mrs Zeepincuzin,99.74
+406.l.333658.t.1,Barry McCokiner,90.9,10,2021,406.l.333658.t.3,Champ's Chosen Ones,100.04
+406.l.333658.t.3,Champ's Chosen Ones,100.04,10,2021,406.l.333658.t.1,Barry McCokiner,90.9
+406.l.333658.t.2,T-REX AllStars,88.98,10,2021,406.l.333658.t.7,Sharknadoes,100.2
+406.l.333658.t.7,Sharknadoes,100.2,10,2021,406.l.333658.t.2,T-REX AllStars,88.98
+406.l.333658.t.4,Juan Afuk zeepincuzin,115.04,10,2021,406.l.333658.t.8,SBTFers,80.14
+406.l.333658.t.8,SBTFers,80.14,10,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,115.04
+406.l.333658.t.5,SHIRT COCKING,132.04,10,2021,406.l.333658.t.6,Mrs Zeepincuzin,104.18
+406.l.333658.t.6,Mrs Zeepincuzin,104.18,10,2021,406.l.333658.t.5,SHIRT COCKING,132.04
+406.l.333658.t.1,Barry McCokiner,151.48,11,2021,406.l.333658.t.8,SBTFers,126.76
+406.l.333658.t.8,SBTFers,126.76,11,2021,406.l.333658.t.1,Barry McCokiner,151.48
+406.l.333658.t.2,T-REX AllStars,154.9,11,2021,406.l.333658.t.5,SHIRT COCKING,89.64
+406.l.333658.t.5,SHIRT COCKING,89.64,11,2021,406.l.333658.t.2,T-REX AllStars,154.9
+406.l.333658.t.3,Champ's Chosen Ones,81.58,11,2021,406.l.333658.t.7,Sharknadoes,132.38
+406.l.333658.t.7,Sharknadoes,132.38,11,2021,406.l.333658.t.3,Champ's Chosen Ones,81.58
+406.l.333658.t.4,Juan Afuk zeepincuzin,102.1,11,2021,406.l.333658.t.6,Mrs Zeepincuzin,71.02
+406.l.333658.t.6,Mrs Zeepincuzin,71.02,11,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,102.1
+406.l.333658.t.1,Barry McCokiner,89.84,12,2021,406.l.333658.t.5,SHIRT COCKING,114.6
+406.l.333658.t.5,SHIRT COCKING,114.6,12,2021,406.l.333658.t.1,Barry McCokiner,89.84
+406.l.333658.t.2,T-REX AllStars,134.28,12,2021,406.l.333658.t.8,SBTFers,130.7
+406.l.333658.t.8,SBTFers,130.7,12,2021,406.l.333658.t.2,T-REX AllStars,134.28
+406.l.333658.t.3,Champ's Chosen Ones,84.78,12,2021,406.l.333658.t.6,Mrs Zeepincuzin,76.3
+406.l.333658.t.6,Mrs Zeepincuzin,76.3,12,2021,406.l.333658.t.3,Champ's Chosen Ones,84.78
+406.l.333658.t.4,Juan Afuk zeepincuzin,86.98,12,2021,406.l.333658.t.7,Sharknadoes,90.58
+406.l.333658.t.7,Sharknadoes,90.58,12,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,86.98
+406.l.333658.t.1,Barry McCokiner,119.02,13,2021,406.l.333658.t.2,T-REX AllStars,118.2
+406.l.333658.t.2,T-REX AllStars,118.2,13,2021,406.l.333658.t.1,Barry McCokiner,119.02
+406.l.333658.t.3,Champ's Chosen Ones,124.82,13,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,101.46
+406.l.333658.t.4,Juan Afuk zeepincuzin,101.46,13,2021,406.l.333658.t.3,Champ's Chosen Ones,124.82
+406.l.333658.t.5,SHIRT COCKING,92.92,13,2021,406.l.333658.t.8,SBTFers,103.4
+406.l.333658.t.8,SBTFers,103.4,13,2021,406.l.333658.t.5,SHIRT COCKING,92.92
+406.l.333658.t.6,Mrs Zeepincuzin,100.22,13,2021,406.l.333658.t.7,Sharknadoes,136.18
+406.l.333658.t.7,Sharknadoes,136.18,13,2021,406.l.333658.t.6,Mrs Zeepincuzin,100.22
+406.l.333658.t.1,Barry McCokiner,113.02,14,2021,406.l.333658.t.7,Sharknadoes,138.2
+406.l.333658.t.7,Sharknadoes,138.2,14,2021,406.l.333658.t.1,Barry McCokiner,113.02
+406.l.333658.t.2,T-REX AllStars,118.74,14,2021,406.l.333658.t.6,Mrs Zeepincuzin,76.78
+406.l.333658.t.6,Mrs Zeepincuzin,76.78,14,2021,406.l.333658.t.2,T-REX AllStars,118.74
+406.l.333658.t.3,Champ's Chosen Ones,116.82,14,2021,406.l.333658.t.8,SBTFers,120.12
+406.l.333658.t.8,SBTFers,120.12,14,2021,406.l.333658.t.3,Champ's Chosen Ones,116.82
+406.l.333658.t.4,Juan Afuk zeepincuzin,96.7,14,2021,406.l.333658.t.5,SHIRT COCKING,131.74
+406.l.333658.t.5,SHIRT COCKING,131.74,14,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,96.7
+406.l.333658.t.1,Barry McCokiner,85.16,15,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,83.5
+406.l.333658.t.4,Juan Afuk zeepincuzin,83.5,15,2021,406.l.333658.t.1,Barry McCokiner,85.16
+406.l.333658.t.2,T-REX AllStars,101.92,15,2021,406.l.333658.t.3,Champ's Chosen Ones,58.68
+406.l.333658.t.3,Champ's Chosen Ones,58.68,15,2021,406.l.333658.t.2,T-REX AllStars,101.92
+406.l.333658.t.5,SHIRT COCKING,113.86,15,2021,406.l.333658.t.7,Sharknadoes,140.34
+406.l.333658.t.7,Sharknadoes,140.34,15,2021,406.l.333658.t.5,SHIRT COCKING,113.86
+406.l.333658.t.6,Mrs Zeepincuzin,83.28,15,2021,406.l.333658.t.8,SBTFers,107.1
+406.l.333658.t.8,SBTFers,107.1,15,2021,406.l.333658.t.6,Mrs Zeepincuzin,83.28
+406.l.333658.t.1,Barry McCokiner,84.38,16,2021,406.l.333658.t.7,Sharknadoes,111.14
+406.l.333658.t.7,Sharknadoes,111.14,16,2021,406.l.333658.t.1,Barry McCokiner,84.38
+406.l.333658.t.2,T-REX AllStars,118.98,16,2021,406.l.333658.t.6,Mrs Zeepincuzin,111.24
+406.l.333658.t.6,Mrs Zeepincuzin,111.24,16,2021,406.l.333658.t.2,T-REX AllStars,118.98
+406.l.333658.t.3,Champ's Chosen Ones,106.9,16,2021,406.l.333658.t.8,SBTFers,135.26
+406.l.333658.t.8,SBTFers,135.26,16,2021,406.l.333658.t.3,Champ's Chosen Ones,106.9
+406.l.333658.t.4,Juan Afuk zeepincuzin,126.62,16,2021,406.l.333658.t.5,SHIRT COCKING,67.88
+406.l.333658.t.5,SHIRT COCKING,67.88,16,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,126.62
+406.l.333658.t.1,Barry McCokiner,90.1,17,2021,406.l.333658.t.3,Champ's Chosen Ones,98.92
+406.l.333658.t.3,Champ's Chosen Ones,98.92,17,2021,406.l.333658.t.1,Barry McCokiner,90.1
+406.l.333658.t.2,T-REX AllStars,186.02,17,2021,406.l.333658.t.4,Juan Afuk zeepincuzin,102.96
+406.l.333658.t.4,Juan Afuk zeepincuzin,102.96,17,2021,406.l.333658.t.2,T-REX AllStars,186.02
+406.l.333658.t.5,SHIRT COCKING,73.16,17,2021,406.l.333658.t.6,Mrs Zeepincuzin,118.34
+406.l.333658.t.6,Mrs Zeepincuzin,118.34,17,2021,406.l.333658.t.5,SHIRT COCKING,73.16
+406.l.333658.t.7,Sharknadoes,130.68,17,2021,406.l.333658.t.8,SBTFers,101.8
+406.l.333658.t.8,SBTFers,101.8,17,2021,406.l.333658.t.7,Sharknadoes,130.68
+414.l.74941.t.1,Barry McCokiner,95.42,1,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,88.04
+414.l.74941.t.5,SHIT CUNT BULLSHIT,88.04,1,2022,414.l.74941.t.1,Barry McCokiner,95.42
+414.l.74941.t.2,Champ's Chosen Ones,90.68,1,2022,414.l.74941.t.9,Bone Zone,98.76
+414.l.74941.t.9,Bone Zone,98.76,1,2022,414.l.74941.t.2,Champ's Chosen Ones,90.68
+414.l.74941.t.3,When In Doubt Pull Out,148.92,1,2022,414.l.74941.t.7,Red Rocket,112.62
+414.l.74941.t.7,Red Rocket,112.62,1,2022,414.l.74941.t.3,When In Doubt Pull Out,148.92
+414.l.74941.t.4,Sports Gloss,101.78,1,2022,414.l.74941.t.12,Luke Menoots,132.16
+414.l.74941.t.12,Luke Menoots,132.16,1,2022,414.l.74941.t.4,Sports Gloss,101.78
+414.l.74941.t.6,Sharknadoes,108.44,1,2022,414.l.74941.t.8,Diggs in a Blanket,90.32
+414.l.74941.t.8,Diggs in a Blanket,90.32,1,2022,414.l.74941.t.6,Sharknadoes,108.44
+414.l.74941.t.1,Barry McCokiner,101.1,2,2022,414.l.74941.t.2,Champ's Chosen Ones,94.4
+414.l.74941.t.2,Champ's Chosen Ones,94.4,2,2022,414.l.74941.t.1,Barry McCokiner,101.1
+414.l.74941.t.3,When In Doubt Pull Out,129.28,2,2022,414.l.74941.t.8,Diggs in a Blanket,137.42
+414.l.74941.t.8,Diggs in a Blanket,137.42,2,2022,414.l.74941.t.3,When In Doubt Pull Out,129.28
+414.l.74941.t.4,Sports Gloss,89.54,2,2022,414.l.74941.t.9,Bone Zone,98.96
+414.l.74941.t.9,Bone Zone,98.96,2,2022,414.l.74941.t.4,Sports Gloss,89.54
+414.l.74941.t.5,SHIT CUNT BULLSHIT,105.66,2,2022,414.l.74941.t.7,Red Rocket,124.78
+414.l.74941.t.7,Red Rocket,124.78,2,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,105.66
+414.l.74941.t.6,Sharknadoes,103.48,2,2022,414.l.74941.t.12,Luke Menoots,121.18
+414.l.74941.t.12,Luke Menoots,121.18,2,2022,414.l.74941.t.6,Sharknadoes,103.48
+414.l.74941.t.1,Barry McCokiner,80.96,3,2022,414.l.74941.t.3,When In Doubt Pull Out,87.6
+414.l.74941.t.3,When In Doubt Pull Out,87.6,3,2022,414.l.74941.t.1,Barry McCokiner,80.96
+414.l.74941.t.2,Champ's Chosen Ones,97.6,3,2022,414.l.74941.t.7,Red Rocket,96.96
+414.l.74941.t.7,Red Rocket,96.96,3,2022,414.l.74941.t.2,Champ's Chosen Ones,97.6
+414.l.74941.t.4,Sports Gloss,60.6,3,2022,414.l.74941.t.6,Sharknadoes,104.54
+414.l.74941.t.6,Sharknadoes,104.54,3,2022,414.l.74941.t.4,Sports Gloss,60.6
+414.l.74941.t.5,SHIT CUNT BULLSHIT,73.68,3,2022,414.l.74941.t.8,Diggs in a Blanket,121.52
+414.l.74941.t.8,Diggs in a Blanket,121.52,3,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,73.68
+414.l.74941.t.9,Bone Zone,96.72,3,2022,414.l.74941.t.12,Luke Menoots,88.78
+414.l.74941.t.12,Luke Menoots,88.78,3,2022,414.l.74941.t.9,Bone Zone,96.72
+414.l.74941.t.1,Barry McCokiner,97.02,4,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,123.08
+414.l.74941.t.5,SHIT CUNT BULLSHIT,123.08,4,2022,414.l.74941.t.1,Barry McCokiner,97.02
+414.l.74941.t.2,Champ's Chosen Ones,131.4,4,2022,414.l.74941.t.9,Bone Zone,91.68
+414.l.74941.t.9,Bone Zone,91.68,4,2022,414.l.74941.t.2,Champ's Chosen Ones,131.4
+414.l.74941.t.3,When In Doubt Pull Out,123.1,4,2022,414.l.74941.t.6,Sharknadoes,127.64
+414.l.74941.t.6,Sharknadoes,127.64,4,2022,414.l.74941.t.3,When In Doubt Pull Out,123.1
+414.l.74941.t.4,Sports Gloss,87.06,4,2022,414.l.74941.t.12,Luke Menoots,70.78
+414.l.74941.t.12,Luke Menoots,70.78,4,2022,414.l.74941.t.4,Sports Gloss,87.06
+414.l.74941.t.7,Red Rocket,112.28,4,2022,414.l.74941.t.8,Diggs in a Blanket,63.46
+414.l.74941.t.8,Diggs in a Blanket,63.46,4,2022,414.l.74941.t.7,Red Rocket,112.28
+414.l.74941.t.1,Barry McCokiner,90.36,5,2022,414.l.74941.t.8,Diggs in a Blanket,96.68
+414.l.74941.t.8,Diggs in a Blanket,96.68,5,2022,414.l.74941.t.1,Barry McCokiner,90.36
+414.l.74941.t.2,Champ's Chosen Ones,114.36,5,2022,414.l.74941.t.12,Luke Menoots,118.92
+414.l.74941.t.12,Luke Menoots,118.92,5,2022,414.l.74941.t.2,Champ's Chosen Ones,114.36
+414.l.74941.t.3,When In Doubt Pull Out,118.48,5,2022,414.l.74941.t.4,Sports Gloss,59.02
+414.l.74941.t.4,Sports Gloss,59.02,5,2022,414.l.74941.t.3,When In Doubt Pull Out,118.48
+414.l.74941.t.5,SHIT CUNT BULLSHIT,132.46,5,2022,414.l.74941.t.6,Sharknadoes,120.46
+414.l.74941.t.6,Sharknadoes,120.46,5,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,132.46
+414.l.74941.t.7,Red Rocket,106.6,5,2022,414.l.74941.t.9,Bone Zone,91.56
+414.l.74941.t.9,Bone Zone,91.56,5,2022,414.l.74941.t.7,Red Rocket,106.6
+414.l.74941.t.1,Barry McCokiner,117.54,6,2022,414.l.74941.t.12,Luke Menoots,77.3
+414.l.74941.t.12,Luke Menoots,77.3,6,2022,414.l.74941.t.1,Barry McCokiner,117.54
+414.l.74941.t.2,Champ's Chosen Ones,108.24,6,2022,414.l.74941.t.6,Sharknadoes,91.3
+414.l.74941.t.6,Sharknadoes,91.3,6,2022,414.l.74941.t.2,Champ's Chosen Ones,108.24
+414.l.74941.t.3,When In Doubt Pull Out,65.98,6,2022,414.l.74941.t.8,Diggs in a Blanket,100.88
+414.l.74941.t.8,Diggs in a Blanket,100.88,6,2022,414.l.74941.t.3,When In Doubt Pull Out,65.98
+414.l.74941.t.4,Sports Gloss,93.0,6,2022,414.l.74941.t.9,Bone Zone,99.66
+414.l.74941.t.9,Bone Zone,99.66,6,2022,414.l.74941.t.4,Sports Gloss,93.0
+414.l.74941.t.5,SHIT CUNT BULLSHIT,100.46,6,2022,414.l.74941.t.7,Red Rocket,101.98
+414.l.74941.t.7,Red Rocket,101.98,6,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,100.46
+414.l.74941.t.1,Barry McCokiner,120.92,7,2022,414.l.74941.t.4,Sports Gloss,74.12
+414.l.74941.t.4,Sports Gloss,74.12,7,2022,414.l.74941.t.1,Barry McCokiner,120.92
+414.l.74941.t.2,Champ's Chosen Ones,164.74,7,2022,414.l.74941.t.8,Diggs in a Blanket,92.1
+414.l.74941.t.8,Diggs in a Blanket,92.1,7,2022,414.l.74941.t.2,Champ's Chosen Ones,164.74
+414.l.74941.t.3,When In Doubt Pull Out,88.46,7,2022,414.l.74941.t.9,Bone Zone,101.1
+414.l.74941.t.9,Bone Zone,101.1,7,2022,414.l.74941.t.3,When In Doubt Pull Out,88.46
+414.l.74941.t.5,SHIT CUNT BULLSHIT,102.08,7,2022,414.l.74941.t.12,Luke Menoots,82.98
+414.l.74941.t.12,Luke Menoots,82.98,7,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,102.08
+414.l.74941.t.6,Sharknadoes,120.94,7,2022,414.l.74941.t.7,Red Rocket,87.24
+414.l.74941.t.7,Red Rocket,87.24,7,2022,414.l.74941.t.6,Sharknadoes,120.94
+414.l.74941.t.1,Barry McCokiner,113.78,8,2022,414.l.74941.t.7,Red Rocket,134.58
+414.l.74941.t.7,Red Rocket,134.58,8,2022,414.l.74941.t.1,Barry McCokiner,113.78
+414.l.74941.t.2,Champ's Chosen Ones,158.18,8,2022,414.l.74941.t.6,Sharknadoes,116.66
+414.l.74941.t.6,Sharknadoes,116.66,8,2022,414.l.74941.t.2,Champ's Chosen Ones,158.18
+414.l.74941.t.3,When In Doubt Pull Out,119.4,8,2022,414.l.74941.t.12,Luke Menoots,68.12
+414.l.74941.t.12,Luke Menoots,68.12,8,2022,414.l.74941.t.3,When In Doubt Pull Out,119.4
+414.l.74941.t.4,Sports Gloss,56.02,8,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,110.62
+414.l.74941.t.5,SHIT CUNT BULLSHIT,110.62,8,2022,414.l.74941.t.4,Sports Gloss,56.02
+414.l.74941.t.8,Diggs in a Blanket,147.58,8,2022,414.l.74941.t.9,Bone Zone,104.26
+414.l.74941.t.9,Bone Zone,104.26,8,2022,414.l.74941.t.8,Diggs in a Blanket,147.58
+414.l.74941.t.1,Barry McCokiner,132.18,9,2022,414.l.74941.t.12,Luke Menoots,81.74
+414.l.74941.t.12,Luke Menoots,81.74,9,2022,414.l.74941.t.1,Barry McCokiner,132.18
+414.l.74941.t.2,Champ's Chosen Ones,94.7,9,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,125.34
+414.l.74941.t.5,SHIT CUNT BULLSHIT,125.34,9,2022,414.l.74941.t.2,Champ's Chosen Ones,94.7
+414.l.74941.t.3,When In Doubt Pull Out,86.82,9,2022,414.l.74941.t.7,Red Rocket,68.74
+414.l.74941.t.7,Red Rocket,68.74,9,2022,414.l.74941.t.3,When In Doubt Pull Out,86.82
+414.l.74941.t.4,Sports Gloss,75.44,9,2022,414.l.74941.t.8,Diggs in a Blanket,105.04
+414.l.74941.t.8,Diggs in a Blanket,105.04,9,2022,414.l.74941.t.4,Sports Gloss,75.44
+414.l.74941.t.6,Sharknadoes,118.22,9,2022,414.l.74941.t.9,Bone Zone,131.46
+414.l.74941.t.9,Bone Zone,131.46,9,2022,414.l.74941.t.6,Sharknadoes,118.22
+414.l.74941.t.1,Barry McCokiner,111.1,10,2022,414.l.74941.t.9,Bone Zone,130.58
+414.l.74941.t.9,Bone Zone,130.58,10,2022,414.l.74941.t.1,Barry McCokiner,111.1
+414.l.74941.t.2,Champ's Chosen Ones,87.02,10,2022,414.l.74941.t.3,When In Doubt Pull Out,128.9
+414.l.74941.t.3,When In Doubt Pull Out,128.9,10,2022,414.l.74941.t.2,Champ's Chosen Ones,87.02
+414.l.74941.t.4,Sports Gloss,52.04,10,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,79.3
+414.l.74941.t.5,SHIT CUNT BULLSHIT,79.3,10,2022,414.l.74941.t.4,Sports Gloss,52.04
+414.l.74941.t.6,Sharknadoes,107.28,10,2022,414.l.74941.t.8,Diggs in a Blanket,113.86
+414.l.74941.t.8,Diggs in a Blanket,113.86,10,2022,414.l.74941.t.6,Sharknadoes,107.28
+414.l.74941.t.7,Red Rocket,98.34,10,2022,414.l.74941.t.12,Luke Menoots,113.64
+414.l.74941.t.12,Luke Menoots,113.64,10,2022,414.l.74941.t.7,Red Rocket,98.34
+414.l.74941.t.1,Barry McCokiner,108.44,11,2022,414.l.74941.t.2,Champ's Chosen Ones,124.16
+414.l.74941.t.2,Champ's Chosen Ones,124.16,11,2022,414.l.74941.t.1,Barry McCokiner,108.44
+414.l.74941.t.3,When In Doubt Pull Out,104.96,11,2022,414.l.74941.t.6,Sharknadoes,129.66
+414.l.74941.t.6,Sharknadoes,129.66,11,2022,414.l.74941.t.3,When In Doubt Pull Out,104.96
+414.l.74941.t.4,Sports Gloss,80.96,11,2022,414.l.74941.t.7,Red Rocket,102.0
+414.l.74941.t.7,Red Rocket,102.0,11,2022,414.l.74941.t.4,Sports Gloss,80.96
+414.l.74941.t.5,SHIT CUNT BULLSHIT,86.4,11,2022,414.l.74941.t.9,Bone Zone,93.42
+414.l.74941.t.9,Bone Zone,93.42,11,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,86.4
+414.l.74941.t.8,Diggs in a Blanket,111.62,11,2022,414.l.74941.t.12,Luke Menoots,70.82
+414.l.74941.t.12,Luke Menoots,70.82,11,2022,414.l.74941.t.8,Diggs in a Blanket,111.62
+414.l.74941.t.1,Barry McCokiner,88.48,12,2022,414.l.74941.t.3,When In Doubt Pull Out,127.6
+414.l.74941.t.3,When In Doubt Pull Out,127.6,12,2022,414.l.74941.t.1,Barry McCokiner,88.48
+414.l.74941.t.2,Champ's Chosen Ones,89.08,12,2022,414.l.74941.t.7,Red Rocket,99.46
+414.l.74941.t.7,Red Rocket,99.46,12,2022,414.l.74941.t.2,Champ's Chosen Ones,89.08
+414.l.74941.t.4,Sports Gloss,71.3,12,2022,414.l.74941.t.6,Sharknadoes,134.08
+414.l.74941.t.6,Sharknadoes,134.08,12,2022,414.l.74941.t.4,Sports Gloss,71.3
+414.l.74941.t.5,SHIT CUNT BULLSHIT,97.2,12,2022,414.l.74941.t.8,Diggs in a Blanket,97.04
+414.l.74941.t.8,Diggs in a Blanket,97.04,12,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,97.2
+414.l.74941.t.9,Bone Zone,111.76,12,2022,414.l.74941.t.12,Luke Menoots,93.7
+414.l.74941.t.12,Luke Menoots,93.7,12,2022,414.l.74941.t.9,Bone Zone,111.76
+414.l.74941.t.1,Barry McCokiner,127.84,13,2022,414.l.74941.t.6,Sharknadoes,91.94
+414.l.74941.t.6,Sharknadoes,91.94,13,2022,414.l.74941.t.1,Barry McCokiner,127.84
+414.l.74941.t.2,Champ's Chosen Ones,120.66,13,2022,414.l.74941.t.3,When In Doubt Pull Out,120.66
+414.l.74941.t.3,When In Doubt Pull Out,120.66,13,2022,414.l.74941.t.2,Champ's Chosen Ones,120.66
+414.l.74941.t.4,Sports Gloss,80.2,13,2022,414.l.74941.t.8,Diggs in a Blanket,92.46
+414.l.74941.t.8,Diggs in a Blanket,92.46,13,2022,414.l.74941.t.4,Sports Gloss,80.2
+414.l.74941.t.5,SHIT CUNT BULLSHIT,110.44,13,2022,414.l.74941.t.12,Luke Menoots,72.32
+414.l.74941.t.12,Luke Menoots,72.32,13,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,110.44
+414.l.74941.t.7,Red Rocket,138.86,13,2022,414.l.74941.t.9,Bone Zone,92.7
+414.l.74941.t.9,Bone Zone,92.7,13,2022,414.l.74941.t.7,Red Rocket,138.86
+414.l.74941.t.1,Barry McCokiner,91.9,14,2022,414.l.74941.t.8,Diggs in a Blanket,61.34
+414.l.74941.t.8,Diggs in a Blanket,61.34,14,2022,414.l.74941.t.1,Barry McCokiner,91.9
+414.l.74941.t.2,Champ's Chosen Ones,101.24,14,2022,414.l.74941.t.4,Sports Gloss,96.64
+414.l.74941.t.4,Sports Gloss,96.64,14,2022,414.l.74941.t.2,Champ's Chosen Ones,101.24
+414.l.74941.t.3,When In Doubt Pull Out,122.08,14,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,141.38
+414.l.74941.t.5,SHIT CUNT BULLSHIT,141.38,14,2022,414.l.74941.t.3,When In Doubt Pull Out,122.08
+414.l.74941.t.6,Sharknadoes,88.28,14,2022,414.l.74941.t.9,Bone Zone,59.12
+414.l.74941.t.9,Bone Zone,59.12,14,2022,414.l.74941.t.6,Sharknadoes,88.28
+414.l.74941.t.7,Red Rocket,96.62,14,2022,414.l.74941.t.12,Luke Menoots,129.02
+414.l.74941.t.12,Luke Menoots,129.02,14,2022,414.l.74941.t.7,Red Rocket,96.62
+414.l.74941.t.2,Champ's Chosen Ones,131.0,15,2022,414.l.74941.t.7,Red Rocket,104.7
+414.l.74941.t.7,Red Rocket,104.7,15,2022,414.l.74941.t.2,Champ's Chosen Ones,131.0
+414.l.74941.t.3,When In Doubt Pull Out,108.8,15,2022,414.l.74941.t.9,Bone Zone,111.58
+414.l.74941.t.9,Bone Zone,111.58,15,2022,414.l.74941.t.3,When In Doubt Pull Out,108.8
+414.l.74941.t.1,Barry McCokiner,77.88,16,2022,414.l.74941.t.12,Luke Menoots,126.94
+414.l.74941.t.12,Luke Menoots,126.94,16,2022,414.l.74941.t.1,Barry McCokiner,77.88
+414.l.74941.t.2,Champ's Chosen Ones,120.7,16,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,123.88
+414.l.74941.t.5,SHIT CUNT BULLSHIT,123.88,16,2022,414.l.74941.t.2,Champ's Chosen Ones,120.7
+414.l.74941.t.3,When In Doubt Pull Out,106.58,16,2022,414.l.74941.t.7,Red Rocket,106.36
+414.l.74941.t.7,Red Rocket,106.36,16,2022,414.l.74941.t.3,When In Doubt Pull Out,106.58
+414.l.74941.t.4,Sports Gloss,56.6,16,2022,414.l.74941.t.6,Sharknadoes,86.32
+414.l.74941.t.6,Sharknadoes,86.32,16,2022,414.l.74941.t.4,Sports Gloss,56.6
+414.l.74941.t.8,Diggs in a Blanket,66.14,16,2022,414.l.74941.t.9,Bone Zone,127.1
+414.l.74941.t.9,Bone Zone,127.1,16,2022,414.l.74941.t.8,Diggs in a Blanket,66.14
+414.l.74941.t.1,Barry McCokiner,118.88,17,2022,414.l.74941.t.4,Sports Gloss,58.96
+414.l.74941.t.4,Sports Gloss,58.96,17,2022,414.l.74941.t.1,Barry McCokiner,118.88
+414.l.74941.t.2,Champ's Chosen Ones,64.4,17,2022,414.l.74941.t.8,Diggs in a Blanket,102.98
+414.l.74941.t.8,Diggs in a Blanket,102.98,17,2022,414.l.74941.t.2,Champ's Chosen Ones,64.4
+414.l.74941.t.5,SHIT CUNT BULLSHIT,90.36,17,2022,414.l.74941.t.9,Bone Zone,84.46
+414.l.74941.t.9,Bone Zone,84.46,17,2022,414.l.74941.t.5,SHIT CUNT BULLSHIT,90.36
+414.l.74941.t.6,Sharknadoes,69.34,17,2022,414.l.74941.t.12,Luke Menoots,49.04
+414.l.74941.t.12,Luke Menoots,49.04,17,2022,414.l.74941.t.6,Sharknadoes,69.34
+423.l.219013.t.1,P01135809,107.46,1,2023,423.l.219013.t.5,Champs Chosen Ones,123.94
+423.l.219013.t.5,Champs Chosen Ones,123.94,1,2023,423.l.219013.t.1,P01135809,107.46
+423.l.219013.t.2,PAC 4 Playboys,95.9,1,2023,423.l.219013.t.6,Diggs in a Blanket,90.48
+423.l.219013.t.6,Diggs in a Blanket,90.48,1,2023,423.l.219013.t.2,PAC 4 Playboys,95.9
+423.l.219013.t.3,Rocket Man,71.16,1,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,76.94
+423.l.219013.t.4,SHIT CUNT BULLSHIT,76.94,1,2023,423.l.219013.t.3,Rocket Man,71.16
+423.l.219013.t.7,Sharknadoes,117.92,1,2023,423.l.219013.t.10,Zynfinity  Beyond,96.84
+423.l.219013.t.10,Zynfinity  Beyond,96.84,1,2023,423.l.219013.t.7,Sharknadoes,117.92
+423.l.219013.t.8,BoneZone,67.0,1,2023,423.l.219013.t.9,Luke Menoots,99.4
+423.l.219013.t.9,Luke Menoots,99.4,1,2023,423.l.219013.t.8,BoneZone,67.0
+423.l.219013.t.1,P01135809,110.68,2,2023,423.l.219013.t.7,Sharknadoes,159.0
+423.l.219013.t.7,Sharknadoes,159.0,2,2023,423.l.219013.t.1,P01135809,110.68
+423.l.219013.t.2,PAC 4 Playboys,86.46,2,2023,423.l.219013.t.8,BoneZone,116.8
+423.l.219013.t.8,BoneZone,116.8,2,2023,423.l.219013.t.2,PAC 4 Playboys,86.46
+423.l.219013.t.3,Rocket Man,90.62,2,2023,423.l.219013.t.5,Champs Chosen Ones,74.44
+423.l.219013.t.5,Champs Chosen Ones,74.44,2,2023,423.l.219013.t.3,Rocket Man,90.62
+423.l.219013.t.4,SHIT CUNT BULLSHIT,85.12,2,2023,423.l.219013.t.9,Luke Menoots,120.2
+423.l.219013.t.9,Luke Menoots,120.2,2,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,85.12
+423.l.219013.t.6,Diggs in a Blanket,112.1,2,2023,423.l.219013.t.10,Zynfinity  Beyond,110.36
+423.l.219013.t.10,Zynfinity  Beyond,110.36,2,2023,423.l.219013.t.6,Diggs in a Blanket,112.1
+423.l.219013.t.1,P01135809,146.98,3,2023,423.l.219013.t.8,BoneZone,97.4
+423.l.219013.t.8,BoneZone,97.4,3,2023,423.l.219013.t.1,P01135809,146.98
+423.l.219013.t.2,PAC 4 Playboys,104.02,3,2023,423.l.219013.t.9,Luke Menoots,112.52
+423.l.219013.t.9,Luke Menoots,112.52,3,2023,423.l.219013.t.2,PAC 4 Playboys,104.02
+423.l.219013.t.3,Rocket Man,94.48,3,2023,423.l.219013.t.10,Zynfinity  Beyond,82.54
+423.l.219013.t.10,Zynfinity  Beyond,82.54,3,2023,423.l.219013.t.3,Rocket Man,94.48
+423.l.219013.t.4,SHIT CUNT BULLSHIT,112.94,3,2023,423.l.219013.t.6,Diggs in a Blanket,138.86
+423.l.219013.t.6,Diggs in a Blanket,138.86,3,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,112.94
+423.l.219013.t.5,Champs Chosen Ones,133.06,3,2023,423.l.219013.t.7,Sharknadoes,132.14
+423.l.219013.t.7,Sharknadoes,132.14,3,2023,423.l.219013.t.5,Champs Chosen Ones,133.06
+423.l.219013.t.1,P01135809,78.54,4,2023,423.l.219013.t.9,Luke Menoots,130.8
+423.l.219013.t.9,Luke Menoots,130.8,4,2023,423.l.219013.t.1,P01135809,78.54
+423.l.219013.t.2,PAC 4 Playboys,100.84,4,2023,423.l.219013.t.5,Champs Chosen Ones,94.7
+423.l.219013.t.5,Champs Chosen Ones,94.7,4,2023,423.l.219013.t.2,PAC 4 Playboys,100.84
+423.l.219013.t.3,Rocket Man,80.48,4,2023,423.l.219013.t.6,Diggs in a Blanket,128.5
+423.l.219013.t.6,Diggs in a Blanket,128.5,4,2023,423.l.219013.t.3,Rocket Man,80.48
+423.l.219013.t.4,SHIT CUNT BULLSHIT,95.82,4,2023,423.l.219013.t.7,Sharknadoes,119.46
+423.l.219013.t.7,Sharknadoes,119.46,4,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,95.82
+423.l.219013.t.8,BoneZone,99.5,4,2023,423.l.219013.t.10,Zynfinity  Beyond,80.94
+423.l.219013.t.10,Zynfinity  Beyond,80.94,4,2023,423.l.219013.t.8,BoneZone,99.5
+423.l.219013.t.1,P01135809,66.62,5,2023,423.l.219013.t.2,PAC 4 Playboys,115.54
+423.l.219013.t.2,PAC 4 Playboys,115.54,5,2023,423.l.219013.t.1,P01135809,66.62
+423.l.219013.t.3,Rocket Man,122.66,5,2023,423.l.219013.t.8,BoneZone,96.76
+423.l.219013.t.8,BoneZone,96.76,5,2023,423.l.219013.t.3,Rocket Man,122.66
+423.l.219013.t.4,SHIT CUNT BULLSHIT,126.22,5,2023,423.l.219013.t.5,Champs Chosen Ones,131.6
+423.l.219013.t.5,Champs Chosen Ones,131.6,5,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,126.22
+423.l.219013.t.6,Diggs in a Blanket,145.44,5,2023,423.l.219013.t.7,Sharknadoes,86.98
+423.l.219013.t.7,Sharknadoes,86.98,5,2023,423.l.219013.t.6,Diggs in a Blanket,145.44
+423.l.219013.t.9,Luke Menoots,87.9,5,2023,423.l.219013.t.10,Zynfinity  Beyond,95.24
+423.l.219013.t.10,Zynfinity  Beyond,95.24,5,2023,423.l.219013.t.9,Luke Menoots,87.9
+423.l.219013.t.1,P01135809,70.22,6,2023,423.l.219013.t.10,Zynfinity  Beyond,79.0
+423.l.219013.t.10,Zynfinity  Beyond,79.0,6,2023,423.l.219013.t.1,P01135809,70.22
+423.l.219013.t.2,PAC 4 Playboys,82.8,6,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,123.58
+423.l.219013.t.4,SHIT CUNT BULLSHIT,123.58,6,2023,423.l.219013.t.2,PAC 4 Playboys,82.8
+423.l.219013.t.3,Rocket Man,104.1,6,2023,423.l.219013.t.7,Sharknadoes,116.22
+423.l.219013.t.7,Sharknadoes,116.22,6,2023,423.l.219013.t.3,Rocket Man,104.1
+423.l.219013.t.5,Champs Chosen Ones,119.64,6,2023,423.l.219013.t.9,Luke Menoots,89.18
+423.l.219013.t.9,Luke Menoots,89.18,6,2023,423.l.219013.t.5,Champs Chosen Ones,119.64
+423.l.219013.t.6,Diggs in a Blanket,106.32,6,2023,423.l.219013.t.8,BoneZone,84.84
+423.l.219013.t.8,BoneZone,84.84,6,2023,423.l.219013.t.6,Diggs in a Blanket,106.32
+423.l.219013.t.1,P01135809,92.26,7,2023,423.l.219013.t.3,Rocket Man,83.02
+423.l.219013.t.3,Rocket Man,83.02,7,2023,423.l.219013.t.1,P01135809,92.26
+423.l.219013.t.2,PAC 4 Playboys,95.66,7,2023,423.l.219013.t.7,Sharknadoes,99.94
+423.l.219013.t.7,Sharknadoes,99.94,7,2023,423.l.219013.t.2,PAC 4 Playboys,95.66
+423.l.219013.t.4,SHIT CUNT BULLSHIT,74.98,7,2023,423.l.219013.t.8,BoneZone,103.54
+423.l.219013.t.8,BoneZone,103.54,7,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,74.98
+423.l.219013.t.5,Champs Chosen Ones,123.96,7,2023,423.l.219013.t.10,Zynfinity  Beyond,100.58
+423.l.219013.t.10,Zynfinity  Beyond,100.58,7,2023,423.l.219013.t.5,Champs Chosen Ones,123.96
+423.l.219013.t.6,Diggs in a Blanket,112.56,7,2023,423.l.219013.t.9,Luke Menoots,123.52
+423.l.219013.t.9,Luke Menoots,123.52,7,2023,423.l.219013.t.6,Diggs in a Blanket,112.56
+423.l.219013.t.1,P01135809,116.8,8,2023,423.l.219013.t.5,Champs Chosen Ones,113.98
+423.l.219013.t.5,Champs Chosen Ones,113.98,8,2023,423.l.219013.t.1,P01135809,116.8
+423.l.219013.t.2,PAC 4 Playboys,118.58,8,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,108.84
+423.l.219013.t.4,SHIT CUNT BULLSHIT,108.84,8,2023,423.l.219013.t.2,PAC 4 Playboys,118.58
+423.l.219013.t.3,Rocket Man,112.1,8,2023,423.l.219013.t.9,Luke Menoots,91.2
+423.l.219013.t.9,Luke Menoots,91.2,8,2023,423.l.219013.t.3,Rocket Man,112.1
+423.l.219013.t.6,Diggs in a Blanket,99.52,8,2023,423.l.219013.t.8,BoneZone,104.6
+423.l.219013.t.8,BoneZone,104.6,8,2023,423.l.219013.t.6,Diggs in a Blanket,99.52
+423.l.219013.t.7,Sharknadoes,115.88,8,2023,423.l.219013.t.10,Zynfinity  Beyond,99.92
+423.l.219013.t.10,Zynfinity  Beyond,99.92,8,2023,423.l.219013.t.7,Sharknadoes,115.88
+423.l.219013.t.1,P01135809,104.68,9,2023,423.l.219013.t.6,Diggs in a Blanket,117.0
+423.l.219013.t.6,Diggs in a Blanket,117.0,9,2023,423.l.219013.t.1,P01135809,104.68
+423.l.219013.t.2,PAC 4 Playboys,89.36,9,2023,423.l.219013.t.3,Rocket Man,76.28
+423.l.219013.t.3,Rocket Man,76.28,9,2023,423.l.219013.t.2,PAC 4 Playboys,89.36
+423.l.219013.t.4,SHIT CUNT BULLSHIT,94.78,9,2023,423.l.219013.t.10,Zynfinity  Beyond,74.48
+423.l.219013.t.10,Zynfinity  Beyond,74.48,9,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,94.78
+423.l.219013.t.5,Champs Chosen Ones,123.64,9,2023,423.l.219013.t.8,BoneZone,110.22
+423.l.219013.t.8,BoneZone,110.22,9,2023,423.l.219013.t.5,Champs Chosen Ones,123.64
+423.l.219013.t.7,Sharknadoes,91.32,9,2023,423.l.219013.t.9,Luke Menoots,103.74
+423.l.219013.t.9,Luke Menoots,103.74,9,2023,423.l.219013.t.7,Sharknadoes,91.32
+423.l.219013.t.1,P01135809,99.34,10,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,95.48
+423.l.219013.t.4,SHIT CUNT BULLSHIT,95.48,10,2023,423.l.219013.t.1,P01135809,99.34
+423.l.219013.t.2,PAC 4 Playboys,125.02,10,2023,423.l.219013.t.10,Zynfinity  Beyond,112.08
+423.l.219013.t.10,Zynfinity  Beyond,112.08,10,2023,423.l.219013.t.2,PAC 4 Playboys,125.02
+423.l.219013.t.3,Rocket Man,135.8,10,2023,423.l.219013.t.9,Luke Menoots,124.02
+423.l.219013.t.9,Luke Menoots,124.02,10,2023,423.l.219013.t.3,Rocket Man,135.8
+423.l.219013.t.5,Champs Chosen Ones,84.24,10,2023,423.l.219013.t.6,Diggs in a Blanket,102.2
+423.l.219013.t.6,Diggs in a Blanket,102.2,10,2023,423.l.219013.t.5,Champs Chosen Ones,84.24
+423.l.219013.t.7,Sharknadoes,136.26,10,2023,423.l.219013.t.8,BoneZone,114.38
+423.l.219013.t.8,BoneZone,114.38,10,2023,423.l.219013.t.7,Sharknadoes,136.26
+423.l.219013.t.1,P01135809,113.74,11,2023,423.l.219013.t.7,Sharknadoes,122.32
+423.l.219013.t.7,Sharknadoes,122.32,11,2023,423.l.219013.t.1,P01135809,113.74
+423.l.219013.t.2,PAC 4 Playboys,100.46,11,2023,423.l.219013.t.6,Diggs in a Blanket,102.0
+423.l.219013.t.6,Diggs in a Blanket,102.0,11,2023,423.l.219013.t.2,PAC 4 Playboys,100.46
+423.l.219013.t.3,Rocket Man,86.9,11,2023,423.l.219013.t.5,Champs Chosen Ones,88.3
+423.l.219013.t.5,Champs Chosen Ones,88.3,11,2023,423.l.219013.t.3,Rocket Man,86.9
+423.l.219013.t.4,SHIT CUNT BULLSHIT,76.04,11,2023,423.l.219013.t.9,Luke Menoots,111.06
+423.l.219013.t.9,Luke Menoots,111.06,11,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,76.04
+423.l.219013.t.8,BoneZone,93.3,11,2023,423.l.219013.t.10,Zynfinity  Beyond,95.96
+423.l.219013.t.10,Zynfinity  Beyond,95.96,11,2023,423.l.219013.t.8,BoneZone,93.3
+423.l.219013.t.1,P01135809,69.94,12,2023,423.l.219013.t.6,Diggs in a Blanket,115.66
+423.l.219013.t.6,Diggs in a Blanket,115.66,12,2023,423.l.219013.t.1,P01135809,69.94
+423.l.219013.t.2,PAC 4 Playboys,125.54,12,2023,423.l.219013.t.9,Luke Menoots,131.6
+423.l.219013.t.9,Luke Menoots,131.6,12,2023,423.l.219013.t.2,PAC 4 Playboys,125.54
+423.l.219013.t.3,Rocket Man,101.94,12,2023,423.l.219013.t.10,Zynfinity  Beyond,100.94
+423.l.219013.t.10,Zynfinity  Beyond,100.94,12,2023,423.l.219013.t.3,Rocket Man,101.94
+423.l.219013.t.4,SHIT CUNT BULLSHIT,124.56,12,2023,423.l.219013.t.8,BoneZone,138.82
+423.l.219013.t.8,BoneZone,138.82,12,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,124.56
+423.l.219013.t.5,Champs Chosen Ones,131.24,12,2023,423.l.219013.t.7,Sharknadoes,131.4
+423.l.219013.t.7,Sharknadoes,131.4,12,2023,423.l.219013.t.5,Champs Chosen Ones,131.24
+423.l.219013.t.1,P01135809,87.92,13,2023,423.l.219013.t.10,Zynfinity  Beyond,128.74
+423.l.219013.t.10,Zynfinity  Beyond,128.74,13,2023,423.l.219013.t.1,P01135809,87.92
+423.l.219013.t.2,PAC 4 Playboys,106.48,13,2023,423.l.219013.t.8,BoneZone,126.48
+423.l.219013.t.8,BoneZone,126.48,13,2023,423.l.219013.t.2,PAC 4 Playboys,106.48
+423.l.219013.t.3,Rocket Man,92.24,13,2023,423.l.219013.t.7,Sharknadoes,113.34
+423.l.219013.t.7,Sharknadoes,113.34,13,2023,423.l.219013.t.3,Rocket Man,92.24
+423.l.219013.t.4,SHIT CUNT BULLSHIT,140.0,13,2023,423.l.219013.t.5,Champs Chosen Ones,92.54
+423.l.219013.t.5,Champs Chosen Ones,92.54,13,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,140.0
+423.l.219013.t.6,Diggs in a Blanket,88.52,13,2023,423.l.219013.t.9,Luke Menoots,129.24
+423.l.219013.t.9,Luke Menoots,129.24,13,2023,423.l.219013.t.6,Diggs in a Blanket,88.52
+423.l.219013.t.1,P01135809,100.54,14,2023,423.l.219013.t.3,Rocket Man,79.78
+423.l.219013.t.3,Rocket Man,79.78,14,2023,423.l.219013.t.1,P01135809,100.54
+423.l.219013.t.2,PAC 4 Playboys,104.64,14,2023,423.l.219013.t.7,Sharknadoes,92.7
+423.l.219013.t.7,Sharknadoes,92.7,14,2023,423.l.219013.t.2,PAC 4 Playboys,104.64
+423.l.219013.t.4,SHIT CUNT BULLSHIT,69.4,14,2023,423.l.219013.t.6,Diggs in a Blanket,112.34
+423.l.219013.t.6,Diggs in a Blanket,112.34,14,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,69.4
+423.l.219013.t.5,Champs Chosen Ones,78.36,14,2023,423.l.219013.t.10,Zynfinity  Beyond,88.5
+423.l.219013.t.10,Zynfinity  Beyond,88.5,14,2023,423.l.219013.t.5,Champs Chosen Ones,78.36
+423.l.219013.t.8,BoneZone,132.26,14,2023,423.l.219013.t.9,Luke Menoots,120.0
+423.l.219013.t.9,Luke Menoots,120.0,14,2023,423.l.219013.t.8,BoneZone,132.26
+423.l.219013.t.2,PAC 4 Playboys,98.86,15,2023,423.l.219013.t.9,Luke Menoots,153.98
+423.l.219013.t.9,Luke Menoots,153.98,15,2023,423.l.219013.t.2,PAC 4 Playboys,98.86
+423.l.219013.t.5,Champs Chosen Ones,74.14,15,2023,423.l.219013.t.8,BoneZone,122.14
+423.l.219013.t.8,BoneZone,122.14,15,2023,423.l.219013.t.5,Champs Chosen Ones,74.14
+423.l.219013.t.1,P01135809,98.36,16,2023,423.l.219013.t.10,Zynfinity  Beyond,86.68
+423.l.219013.t.10,Zynfinity  Beyond,86.68,16,2023,423.l.219013.t.1,P01135809,98.36
+423.l.219013.t.2,PAC 4 Playboys,89.98,16,2023,423.l.219013.t.5,Champs Chosen Ones,99.92
+423.l.219013.t.5,Champs Chosen Ones,99.92,16,2023,423.l.219013.t.2,PAC 4 Playboys,89.98
+423.l.219013.t.3,Rocket Man,95.48,16,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,106.58
+423.l.219013.t.4,SHIT CUNT BULLSHIT,106.58,16,2023,423.l.219013.t.3,Rocket Man,95.48
+423.l.219013.t.6,Diggs in a Blanket,80.58,16,2023,423.l.219013.t.9,Luke Menoots,130.14
+423.l.219013.t.9,Luke Menoots,130.14,16,2023,423.l.219013.t.6,Diggs in a Blanket,80.58
+423.l.219013.t.7,Sharknadoes,118.0,16,2023,423.l.219013.t.8,BoneZone,100.82
+423.l.219013.t.8,BoneZone,100.82,16,2023,423.l.219013.t.7,Sharknadoes,118.0
+423.l.219013.t.1,P01135809,119.66,17,2023,423.l.219013.t.4,SHIT CUNT BULLSHIT,110.1
+423.l.219013.t.4,SHIT CUNT BULLSHIT,110.1,17,2023,423.l.219013.t.1,P01135809,119.66
+423.l.219013.t.3,Rocket Man,59.3,17,2023,423.l.219013.t.10,Zynfinity  Beyond,104.2
+423.l.219013.t.10,Zynfinity  Beyond,104.2,17,2023,423.l.219013.t.3,Rocket Man,59.3
+423.l.219013.t.6,Diggs in a Blanket,87.62,17,2023,423.l.219013.t.8,BoneZone,110.58
+423.l.219013.t.8,BoneZone,110.58,17,2023,423.l.219013.t.6,Diggs in a Blanket,87.62
+423.l.219013.t.7,Sharknadoes,134.46,17,2023,423.l.219013.t.9,Luke Menoots,101.66
+423.l.219013.t.9,Luke Menoots,101.66,17,2023,423.l.219013.t.7,Sharknadoes,134.46
