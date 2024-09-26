@@ -8,7 +8,6 @@ __email__ = "uberfastman@uberfastman.dev"
 import os
 import sys
 import pandas as pd
-import time  # Import time module for delays
 import re
 
 # from logging import DEBUG
@@ -22,9 +21,6 @@ from variable_setup import (
     get_player_id,
     get_season,
     get_game_code,
-    get_game_id,
-    get_game_key,
-    get_league_id,
     get_team_name
 )
 
@@ -46,9 +42,6 @@ data = Data(data_dir)
 # Variables setup
 season = get_season()
 game_code = get_game_code()
-game_id = get_game_id()
-game_key = get_game_key()
-league_id = get_league_id()
 team_name = get_team_name()
 player_id = get_player_id()
 
@@ -193,9 +186,6 @@ def fetch_and_combine_standings(auth_dir, game_code):
                 # Append the standings to the complete standings DataFrame
                 standings_complete = pd.concat([standings_complete, standings], ignore_index=True)
 
-                # Respect API rate limits
-                # time.sleep(1)  # Sleep for 1 second between requests
-
             except KeyError as e:
                 print(f"KeyError: {e} for Year: {year}, Week: {week}. Skipping this week.")
                 continue
@@ -204,8 +194,6 @@ def fetch_and_combine_standings(auth_dir, game_code):
                 continue
 
     return standings_complete
-
-
 
 
 # Fetch and combine standings
