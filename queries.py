@@ -18,9 +18,11 @@ from logging import DEBUG
 # print(repr(yahoo_query.get_game_roster_positions_by_game_id(game_id)))
 # print(repr(yahoo_query.get_league_key(season)))
 # print(repr(yahoo_query.get_current_user()))
+
 # print(repr(yahoo_query.get_user_games()))
 # print(repr(yahoo_query.get_user_leagues_by_game_key(game_key)))
 # print(repr(yahoo_query.get_user_teams()))
+
 # print(repr(yahoo_query.get_league_info()))
 # print(repr(yahoo_query.get_league_metadata()))
 # print(repr(yahoo_query.get_league_settings()))
@@ -31,6 +33,7 @@ from logging import DEBUG
 # print(repr(yahoo_query.get_league_transactions()))
 # print(repr(yahoo_query.get_league_scoreboard_by_week(chosen_week)))
 # print(repr(yahoo_query.get_league_matchups_by_week(chosen_week)))
+
 # print(repr(yahoo_query.get_team_info(team_id)))
 # print(repr(yahoo_query.get_team_metadata(team_id)))
 # print(repr(yahoo_query.get_team_stats(team_id)))
@@ -43,6 +46,7 @@ from logging import DEBUG
 # print(repr(yahoo_query.get_team_roster_player_stats_by_week(team_id, chosen_week)))
 # print(repr(yahoo_query.get_team_draft_results(team_id)))
 # print(repr(yahoo_query.get_team_matchups(team_id)))
+
 # print(repr(yahoo_query.get_player_stats_for_season(player_key)))
 # print(repr(yahoo_query.get_player_stats_for_season(player_key, limit_to_league_stats=False)))
 # print(repr(yahoo_query.get_player_stats_by_week(player_key, chosen_week)))
